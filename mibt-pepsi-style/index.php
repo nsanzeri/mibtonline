@@ -26,7 +26,7 @@ require_once 'head.inc.php';
                 <div class="navbar navbar-default" role="navigation">
                     <div class="container">
                     			<!-- Start Menu -->
-                                    <ol class="breadcrumb pull-right">
+                                    <ol class="breadcrumb pull-left">
                                     	<?php require_once 'menu.inc.php'; ?>
 										<!-- <li class="active"><a href="index.html">Map</a></li>
                                         <li><a href="grid.html">Grid</a></li>
@@ -34,9 +34,13 @@ require_once 'head.inc.php';
  									--></ol>
                                 <!-- end Menu -->
                         <div class="">
-                            <div class="pull-left">
+                            <div class="pull-right">
                                 <button type="button" class="button-menu-mobile open-left waves-effect waves-light">
-                                    <i class="ion-navicon"></i>
+                                    <i class="ion-navicon">
+										<li class="active"><a href="index.html">Map</a></li>
+                                        <li><a href="grid.html">Grid</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                    </i>
                                 </button>
                                 <span class="clearfix"></span>
                             </div>
