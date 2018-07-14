@@ -11,8 +11,6 @@ require_once 'connect-local.inc.php';
 require_once 'get-variables.inc.php';
 require_once 'head.inc.php';
 ?>
-
-
     <body class="fixed-left">
 
         <!-- Begin page -->
