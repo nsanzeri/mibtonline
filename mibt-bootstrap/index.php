@@ -24,7 +24,7 @@
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.php">Start Bootstrap</a>
+        <a class="navbar-brand" href="index.php">MIBT Online</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -122,15 +122,15 @@
     <!-- Page Content -->
     <div class="container">
 
-      <h1 class="my-4">Welcome to Modern Business</h1>
+      <h1 class="my-4">Welcome</h1>
 
       <!-- Marketing Icons Section -->
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
+            <h4 class="card-header">Live Training</h4>
             <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+              <p class="card-text">To Sign Up for our live training, click the button below. After registeration, you will have access to our live training events.</p>
             </div>
             <div class="card-footer">
               <a href="#" class="btn btn-primary">Learn More</a>
@@ -139,23 +139,23 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
+            <h4 class="card-header">About Us</h4>
             <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+              <p class="card-text">MIBT is a very extensive Media Company, that deals with a multitude of services. If you want to find out more about who we are and what we do, click the button below</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a href="about.php" class="btn btn-primary">About</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
+            <h4 class="card-header">Videos</h4>
             <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+              <p class="card-text">If you want to see more videos free of charge, click the button below. We have plenty of archived videos, and new uploads to check out.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a href="pricing.php" class="btn btn-primary">Videos</a>
             </div>
           </div>
         </div>
