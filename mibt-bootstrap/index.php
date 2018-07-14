@@ -87,24 +87,24 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-item active" style="background-image: url('https://cmgstatesmanpreps.files.wordpress.com/2015/10/e99a5079_2.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>First Slide</h3>
-              <p>This is a description for the first slide.</p>
+              <h3>Welcome To MIBT Online</h3>
+              <p>A dynamic company that offers a variety of media services</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-item" style="background-image: url('http://www.ihsa.org/Portals/0/Photos/IHSA%20State/Meet%20The%20Press/2017-18/WesslerTOP.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Second Slide</h3>
-              <p>This is a description for the second slide.</p>
+              <h3>What We Do</h3>
+              <p>We aim to educate and entertain people through media</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-item" style="background-image: url('https://myelearningworld.com/wp-content/uploads/2017/05/cameras-for-classroom-recording-810x540.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
+              <h3>Learn More</h3>
+              <p>Visit our about page to find out more!</p>
             </div>
           </div>
         </div>
