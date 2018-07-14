@@ -10,9 +10,16 @@ CREATE TABLE `user` (
   `user_id` int(11) NOT NULL,
   `username` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `first_name` varchar(255) DEFAULT NULL,
+  `last_name` varchar(255) DEFAULT NULL,
   `is_active` tinyint(1) DEFAULT NULL,
-  PRIMARY KEY ('user_id'),
-  UNIQUE KEY ('username')
+  `is_logged_in` tinyint(1) DEFAULT NULL,
+  `is_paid` tinyint(1) DEFAULT NULL,
+  `is_admin` tinyint(1) DEFAULT NULL,
+  `join_date` date DEFAULT NULL,
+  PRIMARY KEY (`user_id`),
+  UNIQUE KEY (`username`)
   
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
