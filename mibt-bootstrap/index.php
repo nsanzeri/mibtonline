@@ -87,21 +87,21 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('https://coppincon.weebly.com/uploads/2/7/0/7/27079585/banner-3_orig.jpg')">
+          <div class="carousel-item active" style="background-image: url('https://coppincon.weebly.com/uploads/2/7/0/7/27079585/banner-3-0_orig.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h3>Welcome To MIBT Online</h3>
               <p>A dynamic company that offers a variety of media services</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('https://coppincon.weebly.com/uploads/2/7/0/7/27079585/banner-1_orig.jpg')">
+          <div class="carousel-item" style="background-image: url('https://coppincon.weebly.com/uploads/2/7/0/7/27079585/banner-1-0_orig.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h3>What We Do</h3>
               <p>We aim to educate and entertain people through media</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('https://coppincon.weebly.com/uploads/2/7/0/7/27079585/banner-2_1_orig.jpg')">
+          <div class="carousel-item" style="background-image: url('https://coppincon.weebly.com/uploads/2/7/0/7/27079585/banner-2-0_orig.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h3>Learn More</h3>
               <p>Visit our about page to find out more!</p>

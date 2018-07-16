@@ -102,7 +102,7 @@
         <div class="col-md-5">
           <h3>Officially Speaking Vlog 51</h3>
           <p>Potential targeting on the QB and what results, possible holding on scrimmage kick.</p>
-          <a class="btn btn-primary" href="#">View
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=axgf-mb9Ydw&t=40s">View
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>
@@ -121,7 +121,7 @@
         <div class="col-md-5">
           <h3>Officially Speaking Vlog 50</h3>
           <p>Post Scrimmage Kick enforcement and Targeting.</p>
-          <a class="btn btn-primary" href="#">View
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=KAUhFloinoE&t=39s">View
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>
@@ -140,7 +140,7 @@
         <div class="col-md-5">
           <h3>MIBTonline Sample Association/Clinic Meeting</h3>
           <p>Sample clip of the NEW online officiating association MIBTonline!</p>
-          <a class="btn btn-primary" href="#">View
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=ZVJURwIYTO4&t=48s">View
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>
@@ -160,7 +160,7 @@
         <div class="col-md-5">
           <h3>Officially Speaking Vlog 40</h3>
           <p>Tim discussed wing communication.  Scrimmage kick penalties.</p>
-          <a class="btn btn-primary" href="#">View
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=Z-0hFtGlvrU&t=62s">View
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>
