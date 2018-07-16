@@ -154,13 +154,13 @@
 
         <div class="col-md-7">
           <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="https://i.ytimg.com/vi/Z-0hFtGlvrU/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCipI6IGIupLKS_1C9hkSToUFr4Hw" alt="">
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Project Four</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-          <a class="btn btn-primary" href="#">View Project
+          <h3>Officially Speaking Vlog 40</h3>
+          <p>Tim discussed wing communication.  Scrimmage kick penalties.</p>
+          <a class="btn btn-primary" href="#">View
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>
