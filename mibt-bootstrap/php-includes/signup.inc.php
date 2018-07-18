@@ -18,29 +18,31 @@ if (isset($_POST['submit'])) {
     // // To protect MySQL injection for Security purpose
     $username = stripslashes($username);
     $password = stripslashes($password);
-     if ($password != $password_c) {
-     $error = "Passwords Don't Match";
-     }
-    // $stmt = $db->prepare("SELECT user_id, username, password, email, first_name, last_name, is_active, is_logged_in, is_paid, is_admin, join_date FROM user where password=$password AND username=$username");
-    // $stmt->bind_result($user_id, $username, $password, $email, $first_name, $last_name, $is_active, $is_logged_in, $is_paid, $is_admin, $join_date);
-    // $stmt->execute();
-	// $numrows = $stmt -> num_rows;
-     $signed_up = false;
-    $sql = "INSERT INTO `user` (`username`, `password`, `email`, `first_name`, `last_name`, `is_active`, `is_logged_in`) VALUES ('$username', '$password', '$email', '$first_name', '$last_name', '1','1');";
-    if ($db -> query($sql) === TRUE) {
-        echo "New record created successfully";
-        $signed_up = true;
-    }else{
-        echo "You fucked up <BR>".$sql;
-    }
-    // echo('numrows: '.$numrows);
-    // echo('sql: '.$numrows);
-    if ($signed_up == TRUE) {
-      $_SESSION['login_user']=$username; // Initializing Session
-      header("location: index.php"); // Redirecting To Other Page
+    if ($password != $password_c) {
+       $error = "Passwords Don't Match";
+    } 
+    //check if the username already exits
+    $sql = "select * from user where username='$username'";
+    $result = $db -> query($sql);
+    $numrows = $result -> num_rows;
+
+    if ($numrows == 1) {
+        $error = $error."<BR>Username ".$username . " already taken.";
     } else {
-      $error = $error."<BR>User Information Invalid";
-    }
-  }
+        $signed_up = false;
+        $sql = "INSERT INTO `user` (`username`, `password`, `email`, `first_name`, `last_name`, `is_active`, `is_logged_in`) VALUES ('$username', '$password', '$email', '$first_name', '$last_name', '1','1');";
+        if ($db -> query($sql) === TRUE) {
+            echo "New record created successfully";
+            $signed_up = true;
+        }
+        if ($signed_up == TRUE) {
+          $_SESSION['login_user']=$username; // Initializing Session
+          header("location: index.php"); // Redirecting To Other Page
+        } else {
+          $error = $error."<BR>User was not created due to errors";
+           echo $sql;
+        }
+      }
+   }
 }
 ?>

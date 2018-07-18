@@ -41,7 +41,7 @@ require_once 'index.inc.php';
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('https://coppincon.weebly.com/uploads/2/7/0/7/27079585/banner-3-0_orig.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Welcome To MIBT Online,  <?php  echo $_SESSION['login_user'] ?></h3>
+              <h3>Welcome To MIBT Online<?php if(isset($_SESSION['login_user'])){ echo ', '.$_SESSION['login_user'];} ?></h3>
               <p>A dynamic company that offers a variety of media services</p>
             </div>
           </div>
