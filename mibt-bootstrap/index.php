@@ -7,8 +7,8 @@ set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
 // require_once 'admin.fn.php';
 
 // Includes
-// require_once 'connect-local.inc.php';
-// require_once 'get-variables.inc.php';
+require_once 'connect.inc.php';
+require_once 'session.inc.php';
 // require_once 'head.inc.php';
 ?>
 <!DOCTYPE html>
@@ -41,7 +41,7 @@ set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('https://coppincon.weebly.com/uploads/2/7/0/7/27079585/banner-3-0_orig.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Welcome To MIBT Online</h3>
+              <h3>Welcome To MIBT Online,  <?php  echo $_SESSION['login_user'] ?></h3>
               <p>A dynamic company that offers a variety of media services</p>
             </div>
           </div>
