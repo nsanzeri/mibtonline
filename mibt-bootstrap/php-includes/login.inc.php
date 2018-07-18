@@ -24,8 +24,8 @@ if (isset($_POST['submit'])) {
 	$result = $db -> query($sql);
 	$numrows = $result -> num_rows;
 
-    echo('numrows: '.$numrows);
-    echo('sql: '.$numrows);
+    // echo('numrows: '.$numrows);
+    // echo('sql: '.$numrows);
     if ($numrows == 1) {
       	// while ($row = $result -> fetch_object()) {
 		$row = $result -> fetch_object();

@@ -8,7 +8,7 @@ set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
 
 // Includes
 require_once 'connect.inc.php';
-require_once 'session.inc.php';
+require_once 'signup.inc.php';
 // require_once 'head.inc.php';
 ?>
 <!DOCTYPE html>
@@ -41,6 +41,15 @@ require_once 'session.inc.php';
                                 <input id="name" name="username" placeholder="username" type="text">
                                 <label>Password :</label>
                                 <input id="password" name="password" placeholder="**********" type="password">
+                                <label>Confirm Password :</label>
+                                <input id="password_c" name="password_c" placeholder="**********" type="Confirm password">
+                                <label>First Name :</label>
+                                <input id="first_name" name="first_name" placeholder="username" type="text">
+                                <label>Last Name :</label>
+                                <input id="last_name" name="last_name" placeholder="username" type="text">
+                                <label>Email :</label>
+                                <input id="email" name="email" placeholder="username" type="text">
+
                                 <input name="submit" type="submit" value=" Login ">
                                 <span><?php echo $error; ?></span>
                               </form>
