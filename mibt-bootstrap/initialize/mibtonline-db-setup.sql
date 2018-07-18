@@ -29,3 +29,5 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`user_id`, `username`, `password`, `is_active`) VALUES
 (1, 'alexsanz', 'password', 1);
+
+INSERT INTO `user` (`user_id`, `username`, `password`, `email`, `first_name`, `last_name`, `is_active`, `is_logged_in`, `is_paid`, `is_admin`, `join_date`) VALUES ('1', 'nsanzeri', 'fuckoff', 'nunya@gmail.com', 'Nick', 'Sanzeri', '1', NULL, NULL, NULL, '2018-07-04');
