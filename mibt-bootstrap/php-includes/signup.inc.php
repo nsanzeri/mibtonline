@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
     $first_name=$_POST['first_name'];
     $last_name=$_POST['last_name'];
     $email=$_POST['email'];
-    echo('email: '.$_POST['email']);
+    // echo('email: '.$_POST['email']);
     // echo('password: '.$_POST['password']);
 
     // // To protect MySQL injection for Security purpose
@@ -32,7 +32,7 @@ if (isset($_POST['submit'])) {
         $signed_up = false;
         $sql = "INSERT INTO `user` (`username`, `password`, `email`, `first_name`, `last_name`, `is_active`, `is_logged_in`) VALUES ('$username', '$password', '$email', '$first_name', '$last_name', '1','1');";
         if ($db -> query($sql) === TRUE) {
-            echo "New record created successfully";
+            // echo "New record created successfully";
             $signed_up = true;
         }
         if ($signed_up == TRUE) {
@@ -40,7 +40,7 @@ if (isset($_POST['submit'])) {
           header("location: index.php"); // Redirecting To Other Page
         } else {
           $error = $error."<BR>User was not created due to errors";
-           echo $sql;
+          //  echo $sql;
         }
       }
    }
