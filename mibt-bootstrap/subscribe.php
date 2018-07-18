@@ -14,8 +14,7 @@ set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
 <!DOCTYPE html>
 <html lang="en">
 
-  <?php require_once 'header.inc.php'; ?>
-  
+ <?php require_once 'header.inc.php'; ?>  
 
   <body>
 
