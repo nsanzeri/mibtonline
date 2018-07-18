@@ -29,9 +29,8 @@ require_once 'session.inc.php';
         <?php require_once 'menu.inc.php'; ?>
         </div>
     </nav>
-
-            <div id="main">
-              <h1>PHP Login Session Example</h1>
+    <!-- Page Content -->
+    <div class="container">
               <div id="login">
                 <h2>Login Form</h2>
                 <form action="" method="post">
@@ -43,7 +42,20 @@ require_once 'session.inc.php';
                   <span><?php echo $error; ?></span>
                 </form>
               </div>
+
             </div>
+    <!-- /.container -->
+        <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
