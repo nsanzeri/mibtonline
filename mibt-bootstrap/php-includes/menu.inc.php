@@ -45,7 +45,7 @@
 	</li>
 	<?php if (isset($_SESSION['login_user'])) {?>
 			<li class="nav-item">
-				<a class="nav-link" href="logout.php">Logout</a>
+				<a class="nav-link" href='index.php?logout=true'>Logout</a>
 			</li>
 	<?php } else { ?>
 			<li class="nav-item">
