@@ -49,6 +49,9 @@
 	</li>
 	<?php if (isset($_SESSION['login_user'])) {?>
 			<li class="nav-item">
+				<a class="nav-link" href="subscribe.php">Subscribe</a>
+			</li>
+			<li class="nav-item">
 				<a class="nav-link" href='index.php?logout=true'>Logout</a>
 			</li>
 	<?php } else { ?>
@@ -59,8 +62,5 @@
 				<a class="nav-link" href="signup.php">Signup</a>
 			</li>
 	<?php } ?>
-	<li class="nav-item">
-		<a class="nav-link" href="subscribe.php">Subscribe</a>
-	</li>
 	</ul>
 </div>
