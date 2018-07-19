@@ -27,3 +27,16 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+
+element.style {
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #9a6a6a;
+    border-color: #007bff;
+}
