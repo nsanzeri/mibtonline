@@ -55,3 +55,6 @@ body {
     text-align: left;
     background-color: #ffffff;
 }
+.bg-dark {
+    background-color: #000;
+}
