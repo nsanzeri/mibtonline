@@ -31,7 +31,7 @@ require_once 'index.inc.php';
     
           <!-- Page Heading/Breadcrumbs -->
           <h1 class="mt-4 mb-3">Subscribe
-            <small>.</small>
+            <small>To Our Live Training Events</small>
           </h1>
     
           <ol class="breadcrumb">
@@ -42,7 +42,7 @@ require_once 'index.inc.php';
           </ol>
     
           <!-- Image Header -->
-          <img class="img-fluid rounded mb-4" src="http://placehold.it/1200x300" alt="">
+          <img class="img-fluid rounded mb-4" src="https://coppincon.weebly.com/uploads/2/7/0/7/27079585/bandicam-2018-07-24-14-42-45-835_orig.jpg" alt="">
     
           <!-- Marketing Icons Section -->
           <div class="row">
@@ -50,7 +50,7 @@ require_once 'index.inc.php';
               <div class="card h-100">
                 <h4 class="card-header">Live Assosciation</h4>
                 <div class="card-body">
-                  <p class="card-text">MIBT Online's new Live assosciation .</p>
+                  <p class="card-text">MIBT Online's new Live assosciation will have many features such as live chats, state of the art live training, and much more. To subscribe please click the button below.</p>
                 </div>
                 <div class="card-footer">
                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
