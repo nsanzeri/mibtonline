@@ -44,7 +44,7 @@ require_once 'connect.inc.php';
 
       <!-- Page Heading/Breadcrumbs -->
       <h1 class="mt-4 mb-3">About
-        <small>Subheading</small>
+        <small>MIBT Online</small>
       </h1>
 
       <ol class="breadcrumb">
@@ -60,10 +60,22 @@ require_once 'connect.inc.php';
           <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
         </div>
         <div class="col-lg-6">
-          <h2>About Modern Business</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+          <h2>About</h2>
+          <p>MIBT Media is a dynamic company that offers a variety of media services. Some of our services include:</p>
+          <p>Sports Officiating Education,
+Education Clinic/Camp Event Planning and Management,
+Instructional Videos,
+Sports Officiating Assignment/Scheduling Management,
+Sports Entertainment,
+Family Videos,
+Documentary Production,
+Podcast Production and Editing,
+Live Webcast and Production,
+Special Events,
+Sports Officiating Services,
+Player Showcases (College Recruiting).
+          </p>
+          <p>Whatever your media needs are, MIBT Media has the solution that will best fit you.</p>
         </div>
       </div>
       <!-- /.row -->
@@ -76,12 +88,9 @@ require_once 'connect.inc.php';
           <div class="card h-100 text-center">
             <img class="card-img-top" src="http://placehold.it/750x450" alt="">
             <div class="card-body">
-              <h4 class="card-title">Team Member</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#">name@example.com</a>
+              <h4 class="card-title">Tim Kiefer</h4>
+              <h6 class="card-subtitle mb-2 text-muted">President and Founder</h6>
+              <p class="card-text">Tim was key in the implementation of a video based officiating education platform developed by the Illinois High School Associaton and adopted by the National Federation of High Schools for use nationally. Tim has also done video education work with the Big Ten as well as many other sports officiating associations and organizations.</p>
             </div>
           </div>
         </div>
@@ -89,55 +98,14 @@ require_once 'connect.inc.php';
           <div class="card h-100 text-center">
             <img class="card-img-top" src="http://placehold.it/750x450" alt="">
             <div class="card-body">
-              <h4 class="card-title">Team Member</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#">name@example.com</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100 text-center">
-            <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-            <div class="card-body">
-              <h4 class="card-title">Team Member</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#">name@example.com</a>
+              <h4 class="card-title">Bill LeMonnier</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Contributor</h6>
+              <p class="card-text">Bill is an accomplished speaker, speaking at many camps and clinics across the country and the world annually as well as producing DVDs dedicated to football officiating training.</p>
             </div>
           </div>
         </div>
       </div>
       <!-- /.row -->
-
-      <!-- Our Customers -->
-      <h2>Our Customers</h2>
-      <div class="row">
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-      </div>
-      <!-- /.row -->
-
     </div>
     <!-- /.container -->
 
