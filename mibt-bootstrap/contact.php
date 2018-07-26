@@ -95,11 +95,12 @@ require_once 'index.inc.php';
               </div>
             </div>
             <div id="success"></div>
-            -->
-            <!-- For success/fail messages -->
+            
+            <!-- For success/fail messages 
             <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
           </form>
         </div>
+        -->
 
       </div>
       <!-- /.row -->
