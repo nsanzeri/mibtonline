@@ -49,7 +49,7 @@ require_once 'connect.inc.php';
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="index.html">Home</a>
+          <a href="index.php">Home</a>
         </li>
         <li class="breadcrumb-item active">About</li>
       </ol>

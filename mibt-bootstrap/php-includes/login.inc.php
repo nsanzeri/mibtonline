@@ -30,7 +30,7 @@ if (isset($_POST['submit'])) {
       	// while ($row = $result -> fetch_object()) {
 		$row = $result -> fetch_object();
       $_SESSION['login_user']=$row->username; // Initializing Session
-      // $_SESSION['login_user']=$username; // Initializing Session
+      $_SESSION['is_paid']=$row->is_paid; // Initializing Session
      
       // $_SESSION['login_user']=$username; // Initializing Session
       header("location: index.php"); // Redirecting To Other Page
