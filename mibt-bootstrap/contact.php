@@ -52,11 +52,11 @@ require_once 'index.inc.php';
         <div class="col-lg-4 mb-4">
           <h3>Contact Details</h3>
           <p>
-            <abbr title="Phone">P</abbr>: (123) 456-7890
+            <abbr title="Phone">P</abbr>: (630) 464-4134
           </p>
           <p>
             <abbr title="Email">E</abbr>:
-            <a href="mailto:name@example.com">name@example.com
+            <a href="tim@mibtmedia.com">tim@mibtmedia.com
             </a>
           </p>
         </div>
@@ -64,7 +64,7 @@ require_once 'index.inc.php';
       <!-- /.row -->
 
       <!-- Contact Form -->
-      <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+      <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. 
       <div class="row">
         <div class="col-lg-8 mb-4">
           <h3>Send us a Message</h3>
@@ -95,6 +95,7 @@ require_once 'index.inc.php';
               </div>
             </div>
             <div id="success"></div>
+            -->
             <!-- For success/fail messages -->
             <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
           </form>

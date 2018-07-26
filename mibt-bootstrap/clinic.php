@@ -28,12 +28,9 @@ require_once 'clinic.inc.php';
     </nav>
     <!-- Page Content -->
     <div class="container">
-	<?php echo $content; ?>
-     </div>
+	<iframe src="https://player.vimeo.com/video/281299740" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    </div>
     <!-- /.container -->
-        <!-- Footer -->
-		<?php require_once 'footer.inc.php'; ?>
-
 </body>
 
 </html>
