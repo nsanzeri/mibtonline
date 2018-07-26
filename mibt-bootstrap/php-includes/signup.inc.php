@@ -6,25 +6,37 @@ if (isset($_POST['submit'])) {
     $error = "Username or Password is invalid";
   } else {
     // Define $username and $password
-    $username=$_POST['username'];
-    $password=$_POST['password'];
-    $password_c=$_POST['password_c'];
-    $first_name=$_POST['first_name'];
-    $last_name=$_POST['last_name'];
-    $email=$_POST['email'];
-    $roboField=$_POST['question_20579'];
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    $password_c = $_POST['password_c'];
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $email = $_POST['email'];
+    $roboField = $_POST['question_20579'];
     // echo('email: '.$_POST['email']);
     // echo('password: '.$_POST['password']);
 
     // // To protect MySQL injection for Security purpose
     $username = stripslashes($username);
     $password = stripslashes($password);
-    if ($password != $password_c) {
-       $error = "Passwords Don't Match";
-    }
+    $password_c = stripslashes($password_c);
+    $first_name = stripslashes($first_name);
+    $last_name = stripslashes($last_name);
+    $email = stripslashes($email);
     if ($roboField != '') {
     	$error = "There was a mysterious error in signing you up!";
     }
+    if ($password != $password_c) {
+       $error = "Passwords Don't Match";
+    }
+
+    //Check that all fields are filled out
+    if ($username == '' || $password == '' || $password_c == '' || $first_name == '' || $last_name == '' || $email == '') {
+    	$error = "Please fill out all fields";
+    }
+    
+    
+    
     
     //check if the username already exits
     $sql = "select * from user where username='$username'";

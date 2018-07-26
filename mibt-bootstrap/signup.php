@@ -31,7 +31,8 @@ require_once 'signup.inc.php';
     <!-- Page Content -->
     <div class="container">
                   <div id="login">
-                    <h2>Signup Please</h2>
+                    <h2>Signup</h2>
+                    <label>All fields are required</label>
                               <form action="" method="post">
                                 <label>UserName :</label>
                                 <input id="name" name="username" placeholder="username" type="text">
