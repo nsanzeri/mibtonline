@@ -1,8 +1,8 @@
 <?php
 $dbConnect = array(
-    'server' => '198.71.225.60:3306',
-    'user' => 'timothyckiefer',
-    'pass' => 'sports1623',
+    'server' => 'localhost',
+    'user' => 'root',
+    'pass' => '',
     'name' => 'mibtonline'
 );
 
