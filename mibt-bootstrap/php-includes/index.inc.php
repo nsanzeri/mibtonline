@@ -5,6 +5,9 @@
     {
       header("Location: index.php"); // Redirecting To Home Page
     }
+    if($_SERVER['HTTP_REFERER'] ==  "*paypal*"){
+    	// Update is_paid and join date for this user.
+    }
   }
 
 ?>

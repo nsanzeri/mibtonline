@@ -19,7 +19,7 @@
 		<a class="dropdown-item" href="clinic.php">Clinic</a>
 		</div>
 	</li>
-	<li class="nav-item dropdown">
+<!-- 	<li class="nav-item dropdown">
 		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		Other Pages
 		</a>
@@ -27,7 +27,8 @@
 			<a class="dropdown-item" href="full-width.php">Full Width Page</a>
 		</div>
 	</li>
-	<?php if (isset($_SESSION['login_user'])) {?>
+ -->
+ 	<?php if (isset($_SESSION['login_user'])) {?>
 			<li class="nav-item">
 				<a class="nav-link" href="subscribe.php">Subscribe</a>
 			</li>
