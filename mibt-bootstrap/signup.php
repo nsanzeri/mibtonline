@@ -38,7 +38,7 @@ require_once 'signup.inc.php';
                                 <label>Password :</label>
                                 <input id="password" name="password" placeholder="**********" type="password">
                                 <label>Confirm Password :</label>
-                                <input id="password_c" name="password_c" placeholder="**********" type="Confirm password">
+                                <input id="password_c" name="password_c" placeholder="**********" type="password">
                                 <label>First Name :</label>
                                 <input id="first_name" name="first_name" placeholder="username" type="text">
                                 <label>Last Name :</label>
@@ -47,7 +47,11 @@ require_once 'signup.inc.php';
                                 <input id="email" name="email" placeholder="username" type="text">
 
                                 <input name="submit" type="submit" value="Signup and Login ">
-                                <span><?php echo $error; ?></span>
+								<div id="hp-div">
+									If you see this, leave this form field blank and invest in CSS
+									support. <input type="text" name="question_20579" value="" />
+								</div>
+								<span><?php echo $error; ?></span>
                               </form>
                               Already a member? <a class="nav-link" href='login.php'>Sign in here</a>
                     </div>

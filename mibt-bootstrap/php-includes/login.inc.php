@@ -8,6 +8,7 @@ if (isset($_POST['submit'])) {
     // Define $username and $password
     $username=$_POST['username'];
     $password=$_POST['password'];
+
     // echo('Username: '.$_POST['username']);
     // echo('password: '.$_POST['password']);
 

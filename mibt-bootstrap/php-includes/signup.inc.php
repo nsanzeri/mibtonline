@@ -12,6 +12,7 @@ if (isset($_POST['submit'])) {
     $first_name=$_POST['first_name'];
     $last_name=$_POST['last_name'];
     $email=$_POST['email'];
+    $roboField=$_POST['question_20579'];
     // echo('email: '.$_POST['email']);
     // echo('password: '.$_POST['password']);
 
@@ -20,7 +21,11 @@ if (isset($_POST['submit'])) {
     $password = stripslashes($password);
     if ($password != $password_c) {
        $error = "Passwords Don't Match";
-    } 
+    }
+    if ($roboField != '') {
+    	$error = "There was a mysterious error in signing you up!";
+    }
+    
     //check if the username already exits
     $sql = "select * from user where username='$username'";
     $result = $db -> query($sql);

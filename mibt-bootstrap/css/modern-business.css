@@ -58,3 +58,5 @@ body {
 .bg-dark {
     background-color: #000;
 }
+
+#hp-div { display: none }
