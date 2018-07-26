@@ -57,7 +57,7 @@ require_once 'connect.inc.php';
       <!-- Intro Content -->
       <div class="row">
         <div class="col-lg-6">
-          <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
+          <img class="img-fluid rounded mb-4" src="images/about.jpg" alt="">
         </div>
         <div class="col-lg-6">
           <h2>About</h2>
@@ -86,7 +86,7 @@ Player Showcases (College Recruiting).
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+            <img class="card-img-top" src="images/tim.jpg" alt="">
             <div class="card-body">
               <h4 class="card-title">Tim Kiefer</h4>
               <h6 class="card-subtitle mb-2 text-muted">President and Founder</h6>
@@ -96,7 +96,7 @@ Player Showcases (College Recruiting).
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+            <img class="card-img-top" src="images/bill.jpg" alt="">
             <div class="card-body">
               <h4 class="card-title">Bill LeMonnier</h4>
               <h6 class="card-subtitle mb-2 text-muted">Contributor</h6>
