@@ -103,7 +103,7 @@ require_once 'index.inc.php';
               <p class="card-text">If you want to see more videos free of charge, click the button below. We have plenty of archived videos, and new uploads to check out.</p>
             </div>
             <div class="card-footer">
-              <a href="portfolio-1-col.php" class="btn btn-primary">Videos</a>
+              <a href="#" class="btn btn-primary">Coming Soon...</a>
             </div>
           </div>
         </div>
