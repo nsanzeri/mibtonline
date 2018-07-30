@@ -111,7 +111,7 @@ Bill is an accomplished speaker, speaking at many camps and clinics across the c
 
       <hr>
 
-      <!-- Pagination -->
+      <!-- Pagination
       <ul class="pagination justify-content-center">
         <li class="page-item">
           <a class="page-link" href="#" aria-label="Previous">
@@ -135,6 +135,7 @@ Bill is an accomplished speaker, speaking at many camps and clinics across the c
           </a>
         </li>
       </ul>
+      -->
 
     </div>
     <!-- /.container -->
