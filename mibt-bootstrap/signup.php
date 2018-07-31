@@ -41,11 +41,11 @@ require_once 'signup.inc.php';
                                 <label>Confirm Password :</label>
                                 <input id="password_c" name="password_c" placeholder="**********" type="password">
                                 <label>First Name :</label>
-                                <input id="first_name" name="first_name" placeholder="username" type="text">
+                                <input id="first_name" name="first_name" placeholder="First Name" type="text">
                                 <label>Last Name :</label>
-                                <input id="last_name" name="last_name" placeholder="username" type="text">
+                                <input id="last_name" name="last_name" placeholder="Last Name" type="text">
                                 <label>Email :</label>
-                                <input id="email" name="email" placeholder="username" type="text">
+                                <input id="email" name="email" placeholder="Email Address" type="text">
 
                                 <input name="submit" type="submit" value="Signup and Login ">
 								<div id="hp-div">

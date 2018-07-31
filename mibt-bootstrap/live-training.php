@@ -37,10 +37,28 @@ require_once 'clinic.inc.php';
     </nav>
     <!-- Page Content -->
     <div class="container">
+          <h1 class="mt-4 mb-3">Live Training
+        <small>MIBT Online</small>
+      </h1>
+      <!-- Page Heading/Breadcrumbs -->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="breadcrumb-item active">Live Training</li>
+      </ol>
+      <!-- Live Video/ Chat -->
+    <div class="row">
       <div class="row">
         <div class="col-md-7">
           <a href="#">
             <iframe src="https://player.vimeo.com/video/281299740" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+          </a>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col-md-7">
+          <a href="#">
           </a>
         </div>
       </div>
@@ -61,11 +79,6 @@ require_once 'clinic.inc.php';
 
    </div>
     <!-- /.container -->
-        <!-- Footer -->
-<!--         <h1>sdfgsdfg</h1> -->
-		<?php require_once 'footer.inc.php'; ?>
-
-
 </body>
 
 </html>
