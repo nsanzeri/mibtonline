@@ -8,26 +8,25 @@ set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
 
 // Includes
 require_once 'connect.inc.php';
-require_once 'index.inc.php';
+require_once 'bill.inc.php';
+// require_once 'get-variables.inc.php';
 // require_once 'head.inc.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
-  <?php require_once 'header.inc.php'; ?>
-  
+   <?php require_once 'header.inc.php'; ?>
 
   <body>
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
+
         <?php require_once 'menu.inc.php'; ?>
         </div>
     </nav>
     
-    
-
     <!-- Page Content -->
     <div class="container">
     <!-- Page Heading/Breadcrumbs -->

@@ -19,7 +19,7 @@
 		</a>
 		<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
 		<a class="dropdown-item" href="live-training.php">Live Training</a>
-		<a class="dropdown-item" href="#">Clinic</a>
+		<a class="dropdown-item" href="#">Archive</a>
 		</div>
 	</li>
 <!-- 	<li class="nav-item dropdown">

@@ -8,7 +8,7 @@ set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
 
 // Includes
 require_once 'connect.inc.php';
-require_once 'live-training.inc.php';
+require_once 'clinic.inc.php';
 // require_once 'get-variables.inc.php';
 // require_once 'head.inc.php';
 ?>
