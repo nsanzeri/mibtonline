@@ -1,16 +1,24 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
 
-<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>MIBT Online</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet"/>
+    <link href="css/login.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="chat/style.css" type="text/css" />
+
     
-    <title>Chat</title>
-    
-    <link rel="stylesheet" href="style.css" type="text/css" />
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script type="text/javascript" src="chat.js"></script>
+    <script type="text/javascript" src="chat/chat.js"></script>
     <script type="text/javascript">
     
         // ask user for name with popup prompt    
@@ -78,25 +86,4 @@
     	});
     </script>
 
-</head>
-
-<body onload="setInterval('chat.update()', 1000)">
-
-    <div id="page-wrap">
-    
-        <h2>jQuery/PHP Chat</h2>
-        
-        <p id="name-area"></p>
-        
-        <div id="chat-wrap"><div id="chat-area"></div></div>
-        
-        <form id="send-message-area">
-            <p>Your message: </p>
-            <textarea id="sendie" maxlength = '100' ></textarea>
-        </form>
-    
-    </div>
-
-</body>
-
-</html>
+  </head>

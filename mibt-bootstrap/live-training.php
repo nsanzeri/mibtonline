@@ -15,9 +15,10 @@ require_once 'live-training.inc.php';
 <!DOCTYPE html>
 <html lang="en">
 
-   <?php require_once 'header.inc.php'; ?>
+   <?php require_once 'header-chat.inc.php'; ?>
 
-  <body>
+  <body >
+
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -28,12 +29,35 @@ require_once 'live-training.inc.php';
     </nav>
     <!-- Page Content -->
     <div class="container">
-	<?php echo $content; ?>
-	<?php require_once 'chat/index.php'; ?>
+
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+
+        <?php require_once 'menu.inc.php'; ?>
+        </div>
+    </nav>
+    <!-- Page Content -->
+
+    <div id="page-wrap">
+        <p id="name-area"></p>
+        
+        <div id="chat-wrap"><div id="chat-area"></div></div>
+        
+        <form id="send-message-area">
+            <p>Your message: </p>
+            <textarea id="sendie" maxlength = '100' ></textarea>
+        </form>
+    
+    </div>
+
      </div>
     <!-- /.container -->
         <!-- Footer -->
+<!--         <h1>sdfgsdfg</h1> -->
 		<?php require_once 'footer.inc.php'; ?>
+
 
 </body>
 
