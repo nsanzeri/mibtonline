@@ -27,22 +27,6 @@ require_once 'live-training.inc.php';
         <?php require_once 'menu.inc.php'; ?>
         </div>
     </nav>
-    <!-- Page Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <iframe src="https://player.vimeo.com/video/281299740" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>2018</h3>
-          <p>Bill LeMonnier's third "Best Practices of Officiating for Highschool Football" Recorded and published in 2018.</p>
-          <a class="btn btn-primary" href="https://player.vimeo.com/video/281299740">View
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
-      </div>
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -52,7 +36,15 @@ require_once 'live-training.inc.php';
         </div>
     </nav>
     <!-- Page Content -->
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <iframe src="https://player.vimeo.com/video/281299740" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+          </a>
+        </div>
+      </div>
+      <div class="row">
     <div id="page-wrap">
         <p id="name-area"></p>
         
@@ -64,8 +56,10 @@ require_once 'live-training.inc.php';
         </form>
     
     </div>
+    </div>
+    
 
-     </div>
+   </div>
     <!-- /.container -->
         <!-- Footer -->
 <!--         <h1>sdfgsdfg</h1> -->
