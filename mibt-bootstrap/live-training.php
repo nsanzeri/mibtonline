@@ -29,6 +29,7 @@ require_once 'live-training.inc.php';
     <!-- Page Content -->
     <div class="container">
 	<?php echo $content; ?>
+	<?php require_once 'chat/index.php'; ?>
      </div>
     <!-- /.container -->
         <!-- Footer -->
