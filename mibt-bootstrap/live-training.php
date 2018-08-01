@@ -52,7 +52,7 @@ require_once 'clinic.inc.php';
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <iframe src="https://player.vimeo.com/video/281299740" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/281299740" width="565" height="360" frameborder="0" allowfullscreen></iframe>
           </a>
         </div>
       </div>

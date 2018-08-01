@@ -100,7 +100,9 @@ Player Showcases (College Recruiting).
             <div class="card-body">
               <h4 class="card-title">Bill LeMonnier</h4>
               <h6 class="card-subtitle mb-2 text-muted">Contributor</h6>
-              <p class="card-text">Bill is an accomplished speaker, speaking at many camps and clinics across the country and the world annually as well as producing DVDs dedicated to football officiating training.</p>
+              <p class="card-text"> 
+
+Bill's Best Practices of Football Officiating DVD is the backbone of MIBTonline.com.  Bill was a member of the Big Ten officiating staff for 20 years and has made appearances in numerous bowl games including the GMAC Bowl, Houston Bowl, Liberty Bowl, Independence Bowl, Cotton Bowl, Holiday Bowl, Orange Bowl, and Fiesta Bowl. Bill refereed the 2011 BCS National Championship and the inaugural Big Ten Championship game and has received many awards throughout his career. Prior to the Big Ten, Bill officiated in the Gateway Conference, the CCIW and high school. He has also officiating internationally working in Japan, Mexico, Panama and Australia. Bill is an accomplished speaker, speaking at many camps and clinics across the country and the world annually as well as producing DVDs dedicated to football officiating training.</p>
             </div>
           </div>
         </div>
