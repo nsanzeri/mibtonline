@@ -89,7 +89,7 @@ require_once 'index.inc.php';
           <div class="card h-100">
             <h4 class="card-header">About Us</h4>
             <div class="card-body">
-              <p class="card-text">MIBT is a very extensive Media Company, that deals with a multitude of services. If you want to find out more about who we are and what we do, click the button below</p>
+              <p class="card-text">MIBTonline.com is a new and state of the art way for officials to receive pre-season and in-season training on their computer or mobile device. Meetings and clinics are streamed LIVE and can be watched virtually anywhere internet service is available.</p>
             </div>
             <div class="card-footer">
               <a href="about.php" class="btn btn-primary">About</a>

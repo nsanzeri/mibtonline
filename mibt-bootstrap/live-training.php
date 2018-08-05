@@ -8,7 +8,7 @@ set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
 
 // Includes
 require_once 'connect.inc.php';
-require_once 'clinic.inc.php';
+require_once 'live-training.inc.php';
 // require_once 'get-variables.inc.php';
 // require_once 'head.inc.php';
 ?>
@@ -52,7 +52,7 @@ require_once 'clinic.inc.php';
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <iframe src="https://player.vimeo.com/video/281299740" width="565" height="360" frameborder="0" allowfullscreen></iframe>
+           <iframe src="https://player.vimeo.com/video/282786084" width="1130" height="720" frameborder="0" allowfullscreen=""></iframe>
           </a>
         </div>
       </div>

@@ -61,9 +61,9 @@ require_once 'connect.inc.php';
         </div>
         <div class="col-lg-6">
           <h2>Bill Lemonnier</h2>
-          <p> 
+          <p>Check out the latest editions of BCS National Championship Referee and renowned clinician Bill LeMonnier's Best Practices of Officiating for High School Football. Along with high school and NCAA official Tim Kiefer, Bill provides valuable insight, breakdown, and analysis of rules, positioning, and mechanics in actual high school football games. This video is a must for any official looking to improve and be the best official possible. Bill officiated for over 40 years including 20 years in the Big Ten. Bill's extensive officiating experience include appearances in 10 major bowl games, the inaugural Big Ten Championship game as well as Arena Bowl XVII & XXII. Bill also has had the opportunity to officiate internationally including the World Cup of American Football Championship in 2007, 2009 & 2011. Most recently, Bill was honored as the NASO/Referee Magazine 2013 Golden Whistle recipient..
 
-Bill's Best Practices of Football Officiating DVD is the backbone of MIBTonline.com.  Bill was a member of the Big Ten officiating staff for 20 years and has made appearances in numerous bowl games including the GMAC Bowl, Houston Bowl, Liberty Bowl, Independence Bowl, Cotton Bowl, Holiday Bowl, Orange Bowl, and Fiesta Bowl. Prior to the Big Ten, Bill officiated in the Gateway Conference, the CCIW and high school. He has also officiating internationally working in Japan, Mexico, Panama and Australia. Bill is an accomplished speaker, speaking at many camps and clinics across the country and the world annually as well as producing DVDs dedicated to football officiating training.</p>
+Subscribe Now!</p>
           <p>Subscribe Now!</p>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">             

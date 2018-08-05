@@ -6,9 +6,8 @@ $content=''; // Variable To Store Error Message
       header( "Location: signup.php" ); die;
   } else {
   	if(empty($_SESSION['is_paid'])) {
-  	    header( "Location: subscribe.php" ); die;
+  	    header( "Location: live-training-trailer.php" ); die;
   	}else{
-  		$content = "Live Video Coming Soon";
   	}
   }
 ?>

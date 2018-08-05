@@ -61,21 +61,7 @@ require_once 'connect.inc.php';
         </div>
         <div class="col-lg-6">
           <h2>About</h2>
-          <p>MIBT Media is a dynamic company that offers a variety of media services. Some of our services include:</p>
-          <p>Sports Officiating Education,
-Education Clinic/Camp Event Planning and Management,
-Instructional Videos,
-Sports Officiating Assignment/Scheduling Management,
-Sports Entertainment,
-Family Videos,
-Documentary Production,
-Podcast Production and Editing,
-Live Webcast and Production,
-Special Events,
-Sports Officiating Services,
-Player Showcases (College Recruiting).
-          </p>
-          <p>Whatever your media needs are, MIBT Media has the solution that will best fit you.</p>
+          <p>MIBTonline.com is a new and state of the art way for officials to receive pre-season and in-season training on their computer or mobile device. Meetings and clinics are streamed LIVE and can be watched virtually anywhere internet service is available. In addition, if you are unable to watch live, all meetings and clinics are recorded and available on-demand to watch at your convenience or to refer back to if necessary or desired. Also, MIBTonline offers members on-demand training videos to make you the best official possible.</p>
         </div>
       </div>
       <!-- /.row -->
@@ -100,9 +86,7 @@ Player Showcases (College Recruiting).
             <div class="card-body">
               <h4 class="card-title">Bill LeMonnier</h4>
               <h6 class="card-subtitle mb-2 text-muted">Contributor</h6>
-              <p class="card-text"> 
-
-Bill's Best Practices of Football Officiating DVD is the backbone of MIBTonline.com.  Bill was a member of the Big Ten officiating staff for 20 years and has made appearances in numerous bowl games including the GMAC Bowl, Houston Bowl, Liberty Bowl, Independence Bowl, Cotton Bowl, Holiday Bowl, Orange Bowl, and Fiesta Bowl. Bill refereed the 2011 BCS National Championship and the inaugural Big Ten Championship game and has received many awards throughout his career. Prior to the Big Ten, Bill officiated in the Gateway Conference, the CCIW and high school. He has also officiating internationally working in Japan, Mexico, Panama and Australia. Bill is an accomplished speaker, speaking at many camps and clinics across the country and the world annually as well as producing DVDs dedicated to football officiating training.</p>
+              <p class="card-text"> Bill comes to MIBTonline.com with an extensive background in officiating. Bill was a member of the Big Ten officiating staff for 20 years and has made appearances in numerous bowl games including the GMAC Bowl, Houston Bowl, Liberty Bowl, Independence Bowl, Cotton Bowl, Holiday Bowl, Orange Bowl, and Fiesta Bowl. Bill refereed the 2011 BCS National Championship and the inaugural Big Ten Championship game and has received many awards throughout his career. Prior to the Big Ten, Bill officiated in the Gateway Conference, the CCIW and high school. He has also officiating internationally working in Japan, Mexico, Panama and Australia. Bill is an accomplished speaker, speaking at many camps and clinics across the country and the world annually as well as producing football officiating training videos. Bill is an retired school teacher and administrator. He is married, has three kids and currently resides in Tinley Park, Illinois .</p>
             </div>
           </div>
         </div>

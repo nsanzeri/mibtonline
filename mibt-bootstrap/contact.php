@@ -43,19 +43,6 @@ require_once 'index.inc.php';
 
       <!-- Content Row -->
       <div class="row">
-        <!-- Map Column -->
-        <!-- Contact Details Column -->
-        <div class="col-lg-4 mb-4">
-          <h3>Contact Details</h3>
-          <p>
-            <abbr title="Phone">P</abbr>: (630) 464-4134
-          </p>
-          <p>
-            <abbr title="Email">E</abbr>:
-            <a href="tim@mibtmedia.com">tim@mibtmedia.com
-            </a>
-          </p>
-        </div>
       </div>
       <!-- /.row -->
 
