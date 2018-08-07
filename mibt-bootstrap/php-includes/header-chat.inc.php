@@ -22,17 +22,17 @@
     <script type="text/javascript" src="chat/chat.js"></script>
     <script type="text/javascript">
     
-        // ask user for name with popup prompt    
-        var name = prompt("Enter your chat name:", "Guest");
+//         // ask user for name with popup prompt    
+//         var name = prompt("Enter your chat name:", "Guest");
         
-        // default name is 'Guest'
-    	if (!name || name === ' ') {
-    	   name = "Guest";	
-    	}
+//         // default name is 'Guest'
+//     	if (!name || name === ' ') {
+//     	   name = "Guest";	
+//     	}
     	
-    	// strip tags
-    	name = name.replace(/(<([^>]+)>)/ig,"");
-    	
+//     	// strip tags
+//     	name = name.replace(/(<([^>]+)>)/ig,"");
+     	name = '<?php echo $_SESSION ['login_user'];?>';
     	// display name on page
     	$("#name-area").html("You are: <span>" + name + "</span>");
     	
@@ -86,10 +86,8 @@
 
 
 
-    			//pop-up test
+  			//Chat pop-up
      	    var dialog;
-     	 
-     	 
      	    dialog = $( "#dialog" ).dialog({
      	      autoOpen: false,
      	      height: 440,
@@ -99,15 +97,7 @@
      	    $( "#create-user" ).button().on( "click", function() {
      	      dialog.dialog( "open" );
      	    });
-              
-            
     	});
-
-
-
-
-
-
   	  </script>
 
   </head>
