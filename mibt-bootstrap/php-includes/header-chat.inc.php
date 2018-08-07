@@ -14,10 +14,11 @@
     <link href="css/modern-business.css" rel="stylesheet"/>
     <link href="css/login.css" rel="stylesheet"/>
     <link rel="stylesheet" href="chat/style.css" type="text/css" />
-
+	<link rel="stylesheet" href="vendor/jquery/jquery-ui.min.css" />
     
     
     <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery/jquery-ui.min.js"></script>
     <script type="text/javascript" src="chat/chat.js"></script>
     <script type="text/javascript">
     
@@ -82,8 +83,32 @@
     				
     			  }
              });
+
+
+
+    			//pop-up test
+     	    var dialog;
+     	 
+     	 
+     	    dialog = $( "#dialog" ).dialog({
+     	      autoOpen: false,
+     	      height: 440,
+     	      width: 415,
+     	      modal: true
+     	    });
+     	 
+     	    $( "#create-user" ).button().on( "click", function() {
+     	      dialog.dialog( "open" );
+     	    });
+              
             
     	});
-    </script>
+
+
+
+
+
+
+  	  </script>
 
   </head>
