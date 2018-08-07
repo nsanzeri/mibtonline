@@ -13,7 +13,13 @@
 	<li class="nav-item">
 		<a class="nav-link" href="bill-lemonnier.php">Bill LeMonnier</a>
 	</li>
-	<li class="nav-item dropdown">
+	<li class="nav-item">
+		<a class="nav-link" href="live-training.php">Live Training</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" href="archive.php">Archive</a>
+	</li>
+	<!-- <li class="nav-item dropdown">
 		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		Live
 		</a>
@@ -21,7 +27,7 @@
 		<a class="dropdown-item" href="live-training.php">Live Training</a>
 		<a class="dropdown-item" href="archive.php">Archive</a>
 		</div>
-	</li>
+	</li> -->
 <!-- 	<li class="nav-item dropdown">
 		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		Other Pages

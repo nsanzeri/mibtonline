@@ -44,31 +44,56 @@ require_once 'live-training.inc.php';
 		<div class="row">
 			<div class="row">
 				<div class="col-md-7">
-					<a href="#"> <iframe src="https://player.vimeo.com/video/282786084"	width="1130" height="720" frameborder="0" allowfullscreen=""></iframe>
+					<a href="#"> <iframe src="https://player.vimeo.com/video/282786084"
+							width="1130" height="720" frameborder="0" allowfullscreen=""></iframe>
 					</a>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-7">
-					<a href="#"> </a>
-				</div>
-			</div>
-			<div class="row">
-				<div id="page-wrap">
-					<p id="name-area"></p>
-					<button id="create-user">Open chat</button>
-					<div id="dialog" title="Live Chat">
-						<div id="chat-wrap">
-							<div id="chat-area"></div>
+			<div class="cotainer">
+				<div class="col-lg-4 mb-4">
+					<div class="card h-100 text-center">
+						<div class="card-body">
+							<h4 class="card-title">Live Training</h4>
+							<h6 class="card-subtitle mb-2 text-muted"></h6>
+							<p class="card-text">Click the button below to view the live chat. You may turn this feature off at anytime.</p>
+							<div class="row">
+								<div id="page-wrap">
+									<p id="name-area"></p>
+									<button id="create-user">Open chat</button>
+									<div id="dialog" title="Live Chat">
+										<div id="chat-wrap">
+											<div id="chat-area"></div>
+										</div>
+										<form id="send-message-area">
+											<textarea id="sendie" maxlength='100'></textarea>
+										</form>
+									</div>
+								</div>
+							</div>
 						</div>
-						<form id="send-message-area">
-							<textarea id="sendie" maxlength='100'></textarea>
-						</form>
 					</div>
 				</div>
+<!-- 				<div class="row"> -->
+<!-- 					<div class="col-md-7"> -->
+<!-- 						<a href="#"> </a> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
+<!-- 				<div class="row"> -->
+<!-- 					<div id="page-wrap"> -->
+<!-- 						<p id="name-area"></p> -->
+<!-- 						<button id="create-user">Open chat</button> -->
+<!-- 						<div id="dialog" title="Live Chat"> -->
+<!-- 							<div id="chat-wrap"> -->
+<!-- 								<div id="chat-area"></div> -->
+<!-- 							</div> -->
+<!-- 							<form id="send-message-area"> -->
+<!-- 								<textarea id="sendie" maxlength='100'></textarea> -->
+<!-- 							</form> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
 			</div>
-		</div>
-		<!-- /.container -->
+			<!-- /.container -->
 
 </body>
 
