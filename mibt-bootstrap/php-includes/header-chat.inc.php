@@ -93,8 +93,7 @@
      	    dialog = $( "#dialog" ).dialog({
      	      autoOpen: false,
      	      height: 440,
-     	      width: 415,
-     	      modal: true
+     	      width: 415
      	    });
      	 
      	    $( "#create-user" ).button().on( "click", function() {
