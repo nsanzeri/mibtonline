@@ -1,5 +1,5 @@
 <?php
-set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
+set_include_path('./php-includes' . PATH_SEPARATOR . './php-functions');
 
 // Includes
 require_once 'connect.inc.php';
@@ -49,49 +49,47 @@ require_once 'live-training.inc.php';
 					</a>
 				</div>
 			</div>
-			<div class="cotainer">
-				<div class="col-lg-4 mb-4">
-					<div class="card h-100 text-center">
-						<div class="card-body">
-							<h4 class="card-title">Live Training</h4>
-							<h6 class="card-subtitle mb-2 text-muted"></h6>
-							<p class="card-text">Click the button below to view the live chat. You may turn this feature off at anytime.</p>
-							<div class="row">
-								<div id="page-wrap">
-									<p id="name-area"></p>
-									<button id="create-user">Open chat</button>
-									<div id="dialog" title="Live Chat">
-										<div id="chat-wrap">
-											<div id="chat-area"></div>
-										</div>
-										<form id="send-message-area">
-											<textarea id="sendie" maxlength='100'></textarea>
-										</form>
-									</div>
-								</div>
-							</div>
+			<!-- Intro Content -->
+			<div class="row">
+				<div class="col-lg-6">
+					<img class="img-fluid rounded mb-4" src="images/live.jpg" alt="">
+				</div>
+				<div class="col-lg-6">
+					<h2>Live Training</h2>
+					<p>Welcome to MIBT Online Live Training. Click the "Open Chat" button to use the live chat. This feature can be turned off at anytime</p>
+				<div id="page-wrap">
+					<p id="name-area"></p>
+					<button id="create-user">Open chat</button>
+					<div id="dialog" title="Live Chat">
+						<div id="chat-wrap">
+							<div id="chat-area"></div>
 						</div>
+						<form id="send-message-area">
+							<textarea id="sendie" maxlength='100'></textarea>
+						</form>
 					</div>
 				</div>
-<!-- 				<div class="row"> -->
-<!-- 					<div class="col-md-7"> -->
-<!-- 						<a href="#"> </a> -->
-<!-- 					</div> -->
-<!-- 				</div> -->
-<!-- 				<div class="row"> -->
-<!-- 					<div id="page-wrap"> -->
-<!-- 						<p id="name-area"></p> -->
-<!-- 						<button id="create-user">Open chat</button> -->
-<!-- 						<div id="dialog" title="Live Chat"> -->
-<!-- 							<div id="chat-wrap"> -->
-<!-- 								<div id="chat-area"></div> -->
-<!-- 							</div> -->
-<!-- 							<form id="send-message-area"> -->
-<!-- 								<textarea id="sendie" maxlength='100'></textarea> -->
-<!-- 							</form> -->
-<!-- 						</div> -->
-<!-- 					</div> -->
-<!-- 				</div> -->
+			</div>
+		</div>
+				<!-- 				<div class="row"> -->
+				<!-- 					<div class="col-md-7"> -->
+				<!-- 						<a href="#"> </a> -->
+				<!-- 					</div> -->
+				<!-- 				</div> -->
+				<!-- 				<div class="row"> -->
+				<!-- 					<div id="page-wrap"> -->
+				<!-- 						<p id="name-area"></p> -->
+				<!-- 						<button id="create-user">Open chat</button> -->
+				<!-- 						<div id="dialog" title="Live Chat"> -->
+				<!-- 							<div id="chat-wrap"> -->
+				<!-- 								<div id="chat-area"></div> -->
+				<!-- 							</div> -->
+				<!-- 							<form id="send-message-area"> -->
+				<!-- 								<textarea id="sendie" maxlength='100'></textarea> -->
+				<!-- 							</form> -->
+				<!-- 						</div> -->
+				<!-- 					</div> -->
+				<!-- 				</div> -->
 			</div>
 			<!-- /.container -->
 
