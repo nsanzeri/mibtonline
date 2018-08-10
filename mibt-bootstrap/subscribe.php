@@ -36,7 +36,7 @@ require_once 'index.inc.php';
     
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="index.html">Home</a>
+              <a href="index.php">Home</a>
             </li>
             <li class="breadcrumb-item active">Services</li>
           </ol>
@@ -50,7 +50,7 @@ require_once 'index.inc.php';
               <div class="card h-100">
                 <h4 class="card-header">Live Assosciation</h4>
                 <div class="card-body">
-                  <p class="card-text">MIBT Online's new Live assosciation will have many features such as live chats, state of the art live training, and much more. To subscribe please click the button below.</p>
+                  <p class="card-text">MIBT Online's new Live assosciation will have many features such as live chats, state of the art live training, and much more. To subscribe please click the button below. *After Purchasing make sure to click on "Return To Merchant" To fully activate your account.</p>
                 </div>
                 <div class="card-footer">
 						<form action="https://www.paypal.com/cgi-bin/webscr" method="post"

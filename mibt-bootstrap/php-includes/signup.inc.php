@@ -54,7 +54,7 @@ if (isset($_POST['submit'])) {
         }
         if ($signed_up == TRUE) {
           $_SESSION['login_user']=$username; // Initializing Session
-          header("location: index.php"); // Redirecting To Other Page
+          header("location: signup-success.php"); // Redirecting To Other Page
         } else {
           $error = $error."<BR>User was not created due to errors";
           //  echo $sql;

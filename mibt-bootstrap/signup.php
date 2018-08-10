@@ -47,7 +47,7 @@ require_once 'signup.inc.php';
                                 <label>Email :</label>
                                 <input id="email" name="email" placeholder="Email Address" type="text">
 
-                                <input name="submit" type="submit" value="Signup and Login ">
+                                <input name="submit" type="submit" value="Signup">
 								<div id="hp-div">
 									If you see this, leave this form field blank and invest in CSS
 									support. <input type="text" name="question_20579" value="" />
