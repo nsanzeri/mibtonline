@@ -1,37 +1,28 @@
-  <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
 
-    <title>MIBT Online</title>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<title>MIBT Online</title>
 
-    <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet"/>
-    <link href="css/login.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="chat/style.css" type="text/css" />
-	<link rel="stylesheet" href="vendor/jquery/jquery-ui.min.css" />
-    
-    
-    <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="vendor/jquery/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="chat/chat.js"></script>
-    <script type="text/javascript">
-    
-//         // ask user for name with popup prompt    
-//         var name = prompt("Enter your chat name:", "Guest");
-        
-//         // default name is 'Guest'
-//     	if (!name || name === ' ') {
-//     	   name = "Guest";	
-//     	}
-    	
-//     	// strip tags
-//     	name = name.replace(/(<([^>]+)>)/ig,"");
+<!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/modern-business.css" rel="stylesheet" />
+<link href="css/login.css" rel="stylesheet" />
+<link rel="stylesheet" href="chat/style.css" type="text/css" />
+<link rel="stylesheet" href="vendor/jquery/jquery-ui.min.css" />
+
+
+<script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="vendor/jquery/jquery-ui.min.js"></script>
+<script type="text/javascript" src="chat/chat.js"></script>
+<script type="text/javascript">
      	name = '<?php echo $_SESSION ['login_user'];?>';
     	// display name on page
     	$("#name-area").html("You are: <span>" + name + "</span>");
@@ -100,4 +91,4 @@
     	});
   	  </script>
 
-  </head>
+</head>
