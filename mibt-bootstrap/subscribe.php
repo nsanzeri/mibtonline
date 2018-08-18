@@ -9,6 +9,7 @@ set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
 // Includes
 require_once 'connect.inc.php';
 require_once 'index.inc.php';
+require_once 'clinic.inc.php';
 // require_once 'head.inc.php';
 ?>
 <!DOCTYPE html>
@@ -51,6 +52,7 @@ require_once 'index.inc.php';
                 <h4 class="card-header">Live Assosciation</h4>
                 <div class="card-body">
                   <p class="card-text">MIBT Online's new Live assosciation will have many features such as live chats, state of the art live training, and much more. To subscribe please click the button below. *After Purchasing make sure to click on "Return To Merchant" To fully activate your account.</p>
+                   <p class="card-text">*PLEASE READ* In order to access all paid content, make sure you click on "RETURN TO MERCHANT" after your purchase.</p>
                 </div>
                 <div class="card-footer">
 						<form action="https://www.paypal.com/cgi-bin/webscr" method="post"

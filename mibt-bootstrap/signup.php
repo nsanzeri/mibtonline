@@ -32,6 +32,7 @@ require_once 'signup.inc.php';
     <div class="container">
                   <div id="login">
                     <h2>Signup</h2>
+                    <label>*Signing up will give you access to all "free" content*</label>
                     <label>All fields are required</label>
                               <form action="" method="post">
                                 <label>UserName :</label>
