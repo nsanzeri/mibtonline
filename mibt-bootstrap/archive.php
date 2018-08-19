@@ -50,6 +50,25 @@ require_once 'live-training.inc.php';
         </li>
         <li class="breadcrumb-item active">Videos</li>
       </ol>
+      
+      <!-- Project One -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <iframe src="https://player.vimeo.com/video/285202787" width="640" height="360" frameborder="0" allowfullscreen=""></iframe>
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Archive 1</h3>
+          <p></p>
+          <a class="btn btn-primary" href="https://player.vimeo.com/video/285202787">View
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+ <hr>
 
       <!-- Project One -->
       <div class="row">

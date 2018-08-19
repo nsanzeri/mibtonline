@@ -10,7 +10,7 @@ require_once 'live-training.inc.php';
 
    <?php require_once 'header-chat.inc.php'; ?>
 
-  <body>
+  <body onload="setInterval('chat.update()', 1000)"> == $0
 
 
 	<!-- Navigation -->
@@ -44,8 +44,7 @@ require_once 'live-training.inc.php';
 		<div class="row">
 			<div class="row">
 				<div class="col-md-7">
-					<a href="#"> <iframe src="https://player.vimeo.com/video/282786084"
-							width="1130" height="720" frameborder="0" allowfullscreen=""></iframe>
+					<iframe src="https://player.vimeo.com/video/285202787" width="1130" height="720" frameborder="0" allowfullscreen=""></iframe>
 					</a>
 				</div>
 			</div>
