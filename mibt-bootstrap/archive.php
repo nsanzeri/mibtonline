@@ -78,7 +78,7 @@ require_once 'live-training.inc.php';
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Archive 1</h3>
+          <h3>Archive 2</h3>
           <p></p>
           <a class="btn btn-primary" href="https://player.vimeo.com/video/284075865">View
             <span class="glyphicon glyphicon-chevron-right"></span>
@@ -97,7 +97,7 @@ require_once 'live-training.inc.php';
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Archive 2</h3>
+          <h3>Archive 3</h3>
           <p></p>
           <a class="btn btn-primary" href="https://player.vimeo.com/video/282786084">View
             <span class="glyphicon glyphicon-chevron-right"></span>
@@ -116,7 +116,7 @@ require_once 'live-training.inc.php';
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Archive 3</h3>
+          <h3>Archive 4</h3>
           <p></p>
           <a class="btn btn-primary" href="https://player.vimeo.com/video/282567313">View
             <span class="glyphicon glyphicon-chevron-right"></span>
