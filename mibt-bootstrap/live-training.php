@@ -44,7 +44,7 @@ require_once 'live-training.inc.php';
 		<div class="row">
 			<div class="row">
 				<div class="col-md-7">
-					<iframe src="https://player.vimeo.com/video/285202787" width="1130" height="720" frameborder="0" allowfullscreen=""></iframe>
+					<iframe src="https://player.vimeo.com/video/286289535" width="1130" height="720" frameborder="0" allowfullscreen=""></iframe>
 					</a>
 				</div>
 			</div>

@@ -2,8 +2,8 @@
 session_start(); // Starting Session
 $error=''; // Variable To Store Error Message
 if (isset($_POST['submit'])) {
-  if (empty($_POST['username']) || empty($_POST['password'])) {
-    $error = "Username or Password is invalid";
+    if (empty($_POST['username']) || empty($_POST['password']) || empty($_POST['password_c']) || empty($_POST['first_name']) || empty($_POST['last_name']) || empty($_POST['email'])) {
+    $error = "All Fields are Required";
   } else {
     // Define $username and $password
     $username = $_POST['username'];

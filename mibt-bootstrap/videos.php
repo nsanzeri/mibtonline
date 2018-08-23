@@ -54,13 +54,32 @@ require_once 'connect.inc.php';
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/5OevcBwwid0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/Nu8Wa4R2dzg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Weekly Vlog</h3>
+          <h3>MIBTonline.com Play of the Week for This Week</h3>
           <p></p>
-          <a class="btn btn-primary" href="https://www.youtube.com/embed/5OevcBwwid0">View
+          <a class="btn btn-primary" href="https://www.youtube.com/embed/2PEec2EW4Js">View
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+<!-- Project One -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/2PEec2EW4Js" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>MIBTonline.com Play of the Week for Last Week</h3>
+          <p></p>
+          <a class="btn btn-primary" href="https://www.youtube.com/embed/IRsJ78naKUY">View
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>

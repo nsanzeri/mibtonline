@@ -51,7 +51,26 @@ require_once 'live-training.inc.php';
         <li class="breadcrumb-item active">Videos</li>
       </ol>
       
-      <!-- Project One -->
+     <!-- Project One -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <iframe src="https://player.vimeo.com/video/286289535" width="640" height="360" frameborder="0" allowfullscreen=""></iframe>
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>8/22/18 Meeting</h3>
+          <p></p>
+          <a class="btn btn-primary" href="https://player.vimeo.com/video/286289535">View
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+ <hr>
+
+ <!-- Project One -->
       <div class="row">
         <div class="col-md-7">
           <a href="#">
@@ -59,7 +78,7 @@ require_once 'live-training.inc.php';
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Archive 1</h3>
+          <h3>8/15/18 Meeting</h3>
           <p></p>
           <a class="btn btn-primary" href="https://player.vimeo.com/video/285202787">View
             <span class="glyphicon glyphicon-chevron-right"></span>
@@ -78,7 +97,7 @@ require_once 'live-training.inc.php';
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Archive 2</h3>
+          <h3>8/8/18 Meeting</h3>
           <p></p>
           <a class="btn btn-primary" href="https://player.vimeo.com/video/284075865">View
             <span class="glyphicon glyphicon-chevron-right"></span>
@@ -97,7 +116,7 @@ require_once 'live-training.inc.php';
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Archive 3</h3>
+          <h3>First meeting 8/1/18</h3>
           <p></p>
           <a class="btn btn-primary" href="https://player.vimeo.com/video/282786084">View
             <span class="glyphicon glyphicon-chevron-right"></span>
@@ -116,7 +135,7 @@ require_once 'live-training.inc.php';
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Archive 4</h3>
+          <h3>Online Clinic from 8/30/18</h3>
           <p></p>
           <a class="btn btn-primary" href="https://player.vimeo.com/video/282567313">View
             <span class="glyphicon glyphicon-chevron-right"></span>
