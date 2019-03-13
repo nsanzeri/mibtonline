@@ -5,8 +5,6 @@ CSS Settings For HTML Div ExactCenter
 #main {
     width: 960px;
     margin: 50px auto;
-    left: 50%;
-    margin-right: -50%;
 }
 
 span {
