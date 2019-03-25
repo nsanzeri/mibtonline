@@ -20,36 +20,28 @@ function establishUserSession($username, $password){
 	}
 }
 
-function check_price($price, $id){
-	$valid_price = false;
-	//you could use the below to check whether the correct price has been paid for the product
-	
-	/*
-	$sql = mysql_query("SELECT amount FROM `products` WHERE id = '$id'");
-	if (mysql_num_rows($sql) != 0) {
-		while ($row = mysql_fetch_array($sql)) {
-			$num = (float)$row['amount'];
-			if($num == $price){
-				$valid_price = true;
+function isGracePeriod(){
+	global $db, $error;
+	$grace_period = false;
+	$username = $_SESSION['login_user'];
+	$sql = "select * from user where username='$username'";
+	$result = $db -> query($sql);
+	$numrows = $result -> num_rows;
+	if ($numrows == 1) {
+		$row = $result -> fetch_object();
+		$joinDate = new DateTime($row->join_date);
+		$currDate = new DateTime(date("Y/m/d"));
+		$difference = $currDate->diff($joinDate);
+// 		echo 'Difference: '.$difference->y.' years, '.$difference->m.' months, '.$difference->d.' days';
+		if ($difference->y == 0){// Less than 1 year
+			if ($difference->m == 0){// Less than 1 month
+				if ($difference->d < 15){// Less than 14 days
+					$_SESSION['grace_period']=true; 
+					$grace_period = true;
+				}
 			}
 		}
 	}
-	return $valid_price;
-	*/
-	return true;
-}
-
-function updatePayments($data){
-	global $link;
-	
-	if (is_array($data)) {
-		$sql = mysql_query("INSERT INTO `payments` (txnid, payment_amount, payment_status, itemid, createdtime) VALUES (
-				'".$data['txn_id']."' ,
-				'".$data['payment_amount']."' ,
-				'".$data['payment_status']."' ,
-				'".$data['item_number']."' ,
-				'".date("Y-m-d H:i:s")."'
-				)", $link);
-		return mysql_insert_id($link);
-	}
+// 	echo('$grace_period: '.$grace_period);
+	return $grace_period;
 }

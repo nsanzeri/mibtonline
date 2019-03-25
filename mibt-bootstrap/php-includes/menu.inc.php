@@ -10,8 +10,14 @@
 	<li class="nav-item">
 		<a class="nav-link" href="contact.php">Contact</a>
 	</li>
+
+			
 	<li class="nav-item">
+	<?php if  (isGracePeriod()) { ?>
 		<a class="nav-link" href="bill-lemonnier.php">Bill LeMonnier</a>
+		<?php } else { ?>
+		<a class="nav-link" href="subscribe.php">Bill LeMonnier</a>
+		<?php }  ?>
 	</li>
 	<li class="nav-item">
 		<a class="nav-link" href="live-training.php">Live Training</a>
@@ -19,6 +25,7 @@
 	<li class="nav-item">
 		<a class="nav-link" href="archive.php">Archive</a>
 	</li>
+	
 	<!-- <li class="nav-item dropdown">
 		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		Live
