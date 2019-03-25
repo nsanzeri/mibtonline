@@ -31,7 +31,7 @@ require_once 'index.inc.php';
           <div class="card h-100">
             <h4 class="card-header">Success!</h4>
             <div class="card-body">
-              <p class="card-text">You have General Access to the site now. To access all of our content, such as live training seminars, please subscribe!</p>
+              <p class="card-text">Thank you for signing up!  Please click on "login" at the top of the site to login and explore MIBTonline.com</p>
             </div>
             <div class="card-footer">
               <a href="index.php" class="btn btn-primary">Go Back Home</a>

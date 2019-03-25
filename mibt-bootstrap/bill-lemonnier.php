@@ -31,7 +31,7 @@ require_once 'bill.inc.php';
     <div class="container">
     <!-- Page Heading/Breadcrumbs -->
       <h1 class="mt-4 mb-3">Bill LeMonnier
-        <small>Best Practices of Officiating for Highschool Football</small>
+        <small>Best Practices of Officiating for High School Football</small>
       </h1>
       <div class="row">
         <div class="col-lg-6">
@@ -140,7 +140,7 @@ require_once 'bill.inc.php';
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
       </div>
       <!-- /.container -->
     </footer>

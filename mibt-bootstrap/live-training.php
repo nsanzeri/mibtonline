@@ -44,10 +44,11 @@ require_once 'live-training.inc.php';
 		<div class="row">
 			<div class="row">
 				<div class="col-md-7">
-					<a href="#"> <iframe src="https://player.vimeo.com/video/282786084"
+					<a href="#"> <iframe src="https://vimeo.com/event/1987/embed"
 							width="1130" height="720" frameborder="0" allowfullscreen=""></iframe>
 					</a>
 				</div>
+
 			</div>
 			<!-- Intro Content -->
 			<div class="row">

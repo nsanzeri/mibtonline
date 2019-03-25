@@ -21,7 +21,7 @@ require_once 'index.inc.php';
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Bill Lemonnier Trailer</title>
+<title>Bill LeMonnier Best Practices of Officiating for High School Football</title>
 
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@ require_once 'index.inc.php';
 
 		<!-- Page Heading/Breadcrumbs -->
 		<h1 class="mt-4 mb-3">
-			Live Training <small>Trailer</small>
+			Bill LeMonnier's Best Practices of Officiating for High School Football <small>2018 Edition</small>
 		</h1>
 
 		<ol class="breadcrumb">
@@ -61,7 +61,7 @@ require_once 'index.inc.php';
 					height="360" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="col-lg-6">
-				<h2>Bill Lemonnier</h2>
+				<h2>Bill LeMonnier</h2>
 				<p>Check out the latest editions of BCS National Championship
 					Referee and renowned clinician Bill LeMonnier's Best Practices of
 					Officiating for High School Football. Along with high school and

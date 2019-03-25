@@ -41,14 +41,14 @@ require_once 'index.inc.php';
           <div class="carousel-item active" style="background-image: url('https://coppincon.weebly.com/uploads/2/7/0/7/27079585/banner-3-0_orig.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h3>Welcome To MIBT Online<?php if(isset($_SESSION['login_user'])){ echo ', '.$_SESSION['login_user'];} ?></h3>
-              <p>A dynamic company that offers a variety of media services</p>
+              <p>a NEW online, live streaming officiating association.</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('https://coppincon.weebly.com/uploads/2/7/0/7/27079585/banner-1-0_2_orig.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h3>What We Do</h3>
-              <p>We aim to educate and entertain people through media</p>
+              <p>LIVE streaming and ON-DEMAND officiating training!</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
@@ -81,7 +81,7 @@ require_once 'index.inc.php';
           <div class="card h-100">
             <h4 class="card-header">Live Training</h4>
             <div class="card-body">
-              <p class="card-text">To Sign Up for our live training, click the button below. After registeration, you will have access to our various Subscription plans.</p>
+              <p class="card-text">Sign Up for our live training by clicking the button below!</p>
             </div>
             <div class="card-footer">
               <a href="signup.php" class="btn btn-primary">Signup</a>
@@ -92,7 +92,7 @@ require_once 'index.inc.php';
           <div class="card h-100">
             <h4 class="card-header">About Us</h4>
             <div class="card-body">
-              <p class="card-text">MIBTonline.com is a new and state of the art way for officials to receive pre-season and in-season training on their computer or mobile device. Meetings and clinics are streamed LIVE and can be watched virtually anywhere internet service is available.</p>
+              <p class="card-text">MIBTonline.com is a new and state of the art way to receive pre-season and in-season training your computer or mobile device. Meetings and clinics are streamed LIVE or ON-DEMAND and can be watched virtually anywhere internet service is available. </p>
             </div>
             <div class="card-footer">
               <a href="about.php" class="btn btn-primary">About</a>
@@ -103,7 +103,7 @@ require_once 'index.inc.php';
           <div class="card h-100">
             <h4 class="card-header">Videos</h4>
             <div class="card-body">
-              <p class="card-text">If you want to see more videos free of charge, click the button below. We have plenty of archived videos, and new uploads to check out.</p>
+              <p class="card-text">MIBTonline.com Play of the Week, Association Meetings, Bill LeMonnier and many more!</p>
             </div>
             <div class="card-footer">
               <a href="videos.php" class="btn btn-primary">Videos</a>

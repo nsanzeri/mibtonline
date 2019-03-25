@@ -44,8 +44,7 @@ require_once 'connect.inc.php';
 
       <!-- Page Heading/Breadcrumbs -->
       <h1 class="mt-4 mb-3">Live Training
-        <small>Trailer</small>
-      </h1>
+    </h1>
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
@@ -57,11 +56,11 @@ require_once 'connect.inc.php';
       <!-- Intro Content -->
       <div class="row">
         <div class="col-lg-6">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZVJURwIYTO4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/318629828" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
         <div class="col-lg-6">
           <h2>MIBT Online Live-Training</h2>
-          <p>MIBT Online's Live Training goes above and beyond in regards to educating officials. From Live Streaming straight to your home, to an interactive chat in where you converse with us and the community, MIBT Online live training will not dissapoint. To the left is a sample version our live training. </p>
+          <p>MIBT Online's Live Training is a first of it's kind offering officials LIVE interactive officiating education and training virtually anywhere in the world. Our Live Streaming meetings and clinics gives you the flexibility to watch live and interact with the speakers via a real time chat room, or watch later at was is most convenient to your life as all meetings and clinics are recorded and available On-Demand!  Watch a past recorded live meeting to the left to get an idea of the type of training we provide.  If you like what you see, please subscribe! </p>
           <p>Subscribe Now!</p>
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post"
 					target="_top">

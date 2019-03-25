@@ -50,17 +50,36 @@ require_once 'connect.inc.php';
         <li class="breadcrumb-item active">Videos</li>
       </ol>
 
-      <!-- Project One -->
+     <!-- Project One -->
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/5OevcBwwid0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/2riKhBR0K38" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Weekly Vlog</h3>
+          <h3>MIBTonline.com Play of the Week for This Week</h3>
           <p></p>
-          <a class="btn btn-primary" href="https://www.youtube.com/embed/5OevcBwwid0">View
+          <a class="btn btn-primary" href="https://www.youtube.com/embed/2riKhBR0K38">View
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+ <!-- Project One -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/B2m9VfrT-Ow" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>MIBTonline.com Play of the Week from Last Week</h3>
+          <p></p>
+          <a class="btn btn-primary" href="https://www.youtube.com/embed/B2m9VfrT-Ow">View
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>
@@ -73,13 +92,13 @@ require_once 'connect.inc.php';
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-           <iframe src="https://player.vimeo.com/video/282786084" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+           <iframe src="https://player.vimeo.com/video/318629828" width="640" height="360" frameborder="0" allowfullscreen></iframe>
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Sample Association Meeting</h3>
+          <h3>Association Meeting 2-20-19</h3>
           <p></p>
-          <a class="btn btn-primary" href="https://player.vimeo.com/video/282786084">View
+          <a class="btn btn-primary" href="https://player.vimeo.com/video/318629828">View
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>

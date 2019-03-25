@@ -63,7 +63,7 @@ require_once 'connect.inc.php';
         </div>
         <div class="col-lg-6">
           <h2>About</h2>
-          <p>MIBTonline.com is a new and state of the art way for officials to receive pre-season and in-season training on their computer or mobile device. Meetings and clinics are streamed LIVE and can be watched virtually anywhere internet service is available. In addition, if you are unable to watch live, all meetings and clinics are recorded and available on-demand to watch at your convenience or to refer back to if necessary or desired. Also, MIBTonline offers members on-demand training videos to make you the best official possible.</p>
+          <p>MIBTonline.com is a new and state of the art way for officials to receive pre-season and in-season training a computer or mobile device. Meetings and clinics are streamed LIVE and can be watched virtually anywhere internet service is available. In addition, if you are unable to watch live, all meetings and clinics are recorded and available on-demand to watch at your convenience or to refer back to if necessary or desired. Also, MIBTonline offers members on-demand training videos to make you the best official possible.</p>
         </div>
       </div>
       <!-- /.row -->
