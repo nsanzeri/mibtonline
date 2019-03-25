@@ -1,15 +1,23 @@
 <?php
 // functions.php
-function check_txnid($tnxid){
-	global $link;
-	return true;
-	$valid_txnid = true;
-	//get result set
-	$sql = mysql_query("SELECT * FROM `payments` WHERE txnid = '$tnxid'", $link);
-	if ($row = mysql_fetch_array($sql)) {
-		$valid_txnid = false;
+function establishUserSession($username, $password){
+	global $db, $error;
+
+	$sql = "select * from user where password='$password' AND username='$username'";
+	$result = $db -> query($sql);
+	$numrows = $result -> num_rows;
+	
+	// echo('numrows: '.$numrows);
+	// echo('sql: '.$numrows);
+	if ($numrows == 1) {
+		// while ($row = $result -> fetch_object()) {
+		$row = $result -> fetch_object();
+		$_SESSION['login_user']=$row->username; // Initializing Session
+		$_SESSION['is_paid']=$row->is_paid; // Initializing Session
+		header("location: index.php"); // Redirecting To Other Page
+	} else {
+		$error = "Username or Password is invalid";
 	}
-	return $valid_txnid;
 }
 
 function check_price($price, $id){

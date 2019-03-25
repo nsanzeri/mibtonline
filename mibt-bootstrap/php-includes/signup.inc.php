@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
         $error = $error."<BR>Username ".$username . " already taken.";
     } else {
         $signed_up = false;
-        $sql = "INSERT INTO `user` (`username`, `password`, `email`, `first_name`, `last_name`, `is_active`, `is_logged_in`) VALUES ('$username', '$password', '$email', '$first_name', '$last_name', '1','1');";
+        $sql = "INSERT INTO `user` (`username`, `password`, `email`, `first_name`, `last_name`, `is_active`, `is_logged_in`, `join_date`) VALUES ('$username', '$password', '$email', '$first_name', '$last_name', '1','1', now());";
         if ($db -> query($sql) === TRUE) {
             // echo "New record created successfully";
             $signed_up = true;

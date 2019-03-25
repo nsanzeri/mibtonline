@@ -8,7 +8,9 @@ set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
 
 // Includes
 require_once 'connect.inc.php';
+require_once 'subscribe.fn.php';
 require_once 'login.inc.php';
+
 // require_once 'get-variables.inc.php';
 // require_once 'head.inc.php';
 ?>
