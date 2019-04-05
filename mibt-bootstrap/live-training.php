@@ -2,6 +2,7 @@
 set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
 
 // Includes
+require_once 'access.fn.php';
 require_once 'connect.inc.php';
 require_once 'live-training.inc.php';
 ?>
