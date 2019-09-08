@@ -19,7 +19,20 @@ require_once 'connect.inc.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+<?php
+session_start (); // Starting Session
+$content = ''; // Variable To Store Error Message
+if (empty ( $_SESSION ['login_user'] )) {
+	header ( "Location: live-training-trailer1.php" );
+	die ();
+} else {
+	if (empty ( $_SESSION ['is_paid'] )) {
+		header ( "Location: live-training-trailer2.php" );
+		die ();
+	} else {
+	}
+}
+?>
     <title>Live Training Trailer</title>
 
     <!-- Bootstrap core CSS -->
@@ -60,7 +73,7 @@ require_once 'connect.inc.php';
         </div>
         <div class="col-lg-6">
           <h2>MIBT Online Live-Training</h2>
-          <p>MIBT Online's Live Training is a first of it's kind offering officials LIVE interactive officiating education and training virtually anywhere in the world. Our Live Streaming meetings and clinics gives you the flexibility to watch live and interact with the speakers via a real time chat room, or watch later at was is most convenient to your life as all meetings and clinics are recorded and available On-Demand!  Watch a past recorded live meeting to the left to get an idea of the type of training we provide.  If you like what you see, please subscribe! </p>
+          <p>MIBTonline.com is a new and state of the art way for officials to receive pre-season and in-season training on a computer or mobile device. Meetings and clinics are streamed LIVE and can be watched virtually anywhere internet service is available. In addition, if you are unable to watch live, all meetings and clinics are recorded and available on-demand to watch at your convenience or to refer back to if necessary or desired. Also, MIBTonline offers members on-demand training videos to make you the best official possible. If you like what you see, please subscribe! </p>
           <p>Subscribe Now!</p>
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post"
 					target="_top">

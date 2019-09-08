@@ -11,20 +11,31 @@
 		<a class="nav-link" href="contact.php">Contact</a>
 	</li>
 
-			
-	<li class="nav-item">
-	<?php if  (isGracePeriod()) { ?>
-		<a class="nav-link" href="bill-lemonnier.php">Bill LeMonnier</a>
+			<?php 
+			if  (empty ( $_SESSION ['is_paid'] ))  { ?>
+	<a class="nav-link" href="bill-trailer.php">Bill LeMonnier</a>
 		<?php } else { ?>
-		<a class="nav-link" href="subscribe.php">Bill LeMonnier</a>
+	<a class="nav-link" href="bill-lemonnier.php">Bill LeMonnier</a>
 		<?php }  ?>
-	</li>
+		<?php 
+			if  (empty ( $_SESSION ['is_paid'] ))  { ?>
+	<a class="nav-link" href="live-training-trailer.php">Live Training</a>
+		<?php } else { ?>
+	<a class="nav-link" href="live-training.php">Live Training</a>
+		<?php }  ?>
+			<?php 
+			if  (empty ( $_SESSION ['is_paid'] ))  { ?>
+	<a class="nav-link" href="live-training-trailer.php">Archive</a>
+		<?php } else { ?>
+	<a class="nav-link" href="archive.php">Archive</a>
+		<?php }  ?>
+<!-- /.container -->
+
+
 	<li class="nav-item">
-		<a class="nav-link" href="live-training.php">Live Training</a>
+		<a class="nav-link" href="https://thepenaltyreport.com/index.php">News</a>
 	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="archive.php">Archive</a>
-	</li>
+
 	
 	<!-- <li class="nav-item dropdown">
 		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -46,7 +57,7 @@
  -->
  	<?php if (isset($_SESSION['login_user'])) {?>
 			<li class="nav-item">
-				<a class="nav-link" href="subscribe.php">Subscribe</a>
+				<a class="nav-link" href="membership.php">Subscribe</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href='index.php?logout=true'>Logout</a>
