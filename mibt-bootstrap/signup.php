@@ -2,6 +2,7 @@
 set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
 
 // Function
+require_once 'access.fn.php';
 // require_once 'filter.fn.php';
 // require_once 'product.fn.php';
 // require_once 'admin.fn.php';

@@ -5,7 +5,7 @@ set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
 // require_once 'filter.fn.php';
 // require_once 'product.fn.php';
 // require_once 'admin.fn.php';
-
+require_once 'access.fn.php';
 // Includes
 require_once 'connect.inc.php';
 require_once 'index.inc.php';
@@ -26,18 +26,38 @@ require_once 'index.inc.php';
         </div>
     </nav>
       <!-- Marketing Icons Section -->
+      <br>
       <div class="container">
-        <div class="col-lg-4 mb-4">
+
           <div class="card h-100">
             <h4 class="card-header">Success!</h4>
             <div class="card-body">
-              <p class="card-text">Thank you for signing up!  Please click on "login" at the top of the site to login and explore MIBTonline.com</p>
+              <p class="card-text">Thank you for signing up!  If you'd like to gain full access to the site, please login below! </p>
             </div>
             <div class="card-footer">
-              <a href="index.php" class="btn btn-primary">Go Back Home</a>
+<a href="login.php" class="btn btn-primary">Log In!</a>
             </div>
-          </div>
+    
         </div>
+            <br>
+            <br>
+        </div>
+     
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
       </div>
       <!-- /.row -->
 

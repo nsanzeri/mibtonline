@@ -1,22 +1,26 @@
 <?php
-set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
+set_include_path('./php-includes' . PATH_SEPARATOR . './php-functions');
 
 // Function
-// require_once 'filter.fn.php';
+require_once 'access.fn.php';
 // require_once 'product.fn.php';
 // require_once 'admin.fn.php';
 
 // Includes
 require_once 'connect.inc.php';
-// require_once 'get-variables.inc.php';
+require_once 'index.inc.php';
 // require_once 'head.inc.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
-   <?php require_once 'header.inc.php'; ?>
+  <?php require_once 'header.inc.php'; ?>
+      <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 
-  <body>
+<body>
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -37,7 +41,7 @@ require_once 'connect.inc.php';
           <img class="img-fluid rounded mb-4" src="images/videos.jpg" alt="">
         </div>
         <div class="col-lg-6">
-          <p>MIBT Online goes beyond just live videos, as we have an extensive library of videos done in the past, (with many more to come). Browse our library below, all videos are free.</p>
+          <p>Play of the Week, The Penalty Report, Sample Meetings and more.  Subscribe to access our full video library!</p>
         </div>
       </div>
       <!-- /.row -->
@@ -54,13 +58,13 @@ require_once 'connect.inc.php';
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/2riKhBR0K38" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/X7WT0Bv5r-8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </a>
         </div>
         <div class="col-md-5">
           <h3>MIBTonline.com Play of the Week for This Week</h3>
           <p></p>
-          <a class="btn btn-primary" href="https://www.youtube.com/embed/2riKhBR0K38">View
+          <a class="btn btn-primary" href="https://www.youtube.com/embed/X7WT0Bv5r-8">View
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>
@@ -73,13 +77,32 @@ require_once 'connect.inc.php';
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/B2m9VfrT-Ow" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/goEnJLYE7hA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </a>
         </div>
         <div class="col-md-5">
           <h3>MIBTonline.com Play of the Week from Last Week</h3>
           <p></p>
-          <a class="btn btn-primary" href="https://www.youtube.com/embed/B2m9VfrT-Ow">View
+          <a class="btn btn-primary" href="https://www.youtube.com/embed/goEnJLYE7hA">View
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+  <hr>
+
+ <!-- Project One -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/ka6XoncNxtU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>The Penalty Report</h3>
+          <p></p>
+          <a class="btn btn-primary" href="https://www.youtube.com/embed/ka6XoncNxtU">View
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>
@@ -92,13 +115,13 @@ require_once 'connect.inc.php';
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-           <iframe src="https://player.vimeo.com/video/318629828" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+           <iframe src="https://player.vimeo.com/video/352617739" width="640" height="360" frameborder="0" allowfullscreen></iframe>
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Association Meeting 2-20-19</h3>
+          <h3>Association Meeting 8-14-19</h3>
           <p></p>
-          <a class="btn btn-primary" href="https://player.vimeo.com/video/318629828">View
+          <a class="btn btn-primary" href="https://player.vimeo.com/video/352617739">View
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>

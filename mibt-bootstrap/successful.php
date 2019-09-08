@@ -5,7 +5,7 @@ set_include_path ( './php-includes' . PATH_SEPARATOR . './php-functions' );
 // require_once 'filter.fn.php';
 // require_once 'product.fn.php';
 // require_once 'admin.fn.php';
-
+require_once 'access.fn.php';
 // Includes
 require_once 'connect.inc.php';
 require_once 'successful.inc.php';
@@ -70,7 +70,7 @@ require_once 'successful.inc.php';
     <!-- Page Content -->
     <div class="container">
 
-      <h1 class="my-4">Thank you for subscribing!</h1>
+      <h1 class="my-4">Thank you for subscribing!  Please login to enjoy all the benefits of your membership!</h1>
 
       <!-- Marketing Icons Section -->
       <div class="row">
@@ -78,7 +78,7 @@ require_once 'successful.inc.php';
           <div class="card h-100">
             <h4 class="card-header">Live Training</h4>
             <div class="card-body">
-              <p class="card-text">To Sign Up for our live training, click the button below. After registeration, you will have access to our various Subscription plans.</p>
+              <p class="card-text">Sign Up for our live training by clicking the button below!</p>
             </div>
             <div class="card-footer">
               <a href="signup.php" class="btn btn-primary">Signup</a>
@@ -89,7 +89,7 @@ require_once 'successful.inc.php';
           <div class="card h-100">
             <h4 class="card-header">About Us</h4>
             <div class="card-body">
-              <p class="card-text">MIBTonline.com is a new and state of the art way for officials to receive pre-season and in-season training on their computer or mobile device. Meetings and clinics are streamed LIVE and can be watched virtually anywhere internet service is available.</p>
+              <p class="card-text">MIBTonline.com is a new and state of the art way to receive pre-season and in-season training your computer or mobile device. Meetings and clinics are streamed LIVE or ON-DEMAND and can be watched virtually anywhere internet service is available.</p>
             </div>
             <div class="card-footer">
               <a href="about.php" class="btn btn-primary">About</a>
@@ -100,10 +100,10 @@ require_once 'successful.inc.php';
           <div class="card h-100">
             <h4 class="card-header">Videos</h4>
             <div class="card-body">
-              <p class="card-text">If you want to see more videos free of charge, click the button below. We have plenty of archived videos, and new uploads to check out.</p>
+              <p class="card-text">MIBTonline.com Play of the Week, Association Meetings, Bill LeMonnier and many more!</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Coming Soon...</a>
+              <a href="videos.php" class="btn btn-primary">Videos</a>
             </div>
           </div>
         </div>
