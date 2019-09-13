@@ -1,74 +1,62 @@
 <?php
-if (isset($_POST["reset-password-submit"])) {
-    
-    $selector = $_POST["selector"];
-    $validator = $_POST["validator"];
-    $password = $_POST["pwd"];
-    $passwordRepeat = $_POST["pwd-repeat"];
-    
-    if (empty($password) || empty($passwordRepeat)) {
-        header("Location: ../creat-new-password.php?newpwd=empty");
-        exit();
-    } else if ($password != $passwordRepeat) {
-        header("Location: ../creat-new-password.php?newpwd=pwdnotsame");
-        exit();
-    }
-    
-    $currentDate = date("U");
-    
-    require 'connect.inc.php';
-    
-    $sql = "SELECT * FROM pwdReset WHERE pwdResetSelector=? AND pwdResetExpires >= ?;"
-        $stmt = mysqli_stmt_init($conn);
-        if (!mysqli_stmt_prepare($stmt, $sql)) {
-            echo "There was an error!";
-            exit();
-        } else {
-            mysqli_stmt_bind_param($stmt, "s", $selector);
-            mysqli_stmt_execute($stmt);
-            
-            $result = mysqli_stmt_get_result($stmt);
-            if (!$row = mysqli_fetch_assoc($result)) {
-                echo "You need to re-submit your reset request.";
-                exit();
-             
-            } else {
-                
-                $tokenBin = hex2bin($validator);
-                $tokenCheck = password_verify($tokenBin, $row["pwdResetToken"]);
-                
-                if ($tokenCheck === false) {
-                    echo "You need to re-submit your reset request.";
-                    exit();
-                } elseif ($tokenCheck === true) {
-                    
-                    $tokenEmail = $row['pwdResetEmail'];
-                    
-                    $sql = "SELECT * FROM users WHERE emailUsers=?;";
-                    $stmt = mysqli_stmt_init($conn);
-                    if (!mysqli_stmt_prepare($stmt, $sql)) {
-                        echo "There was an error!";
-                        exit();
-                    } else {
-                        mysqli_stmt_bind_param($stmt, "s", $tokenEmail);
-                        mysqli_stmt_execute($stmt);
-                        $result = mysqli_stmt_get_result($stmt);
-                        if (!$row = mysqli_fetch_assoc($result)) {
-                            echo "There was an error!.";
-                            exit();
-                        } else {
-                            
-                            $sql = "UPDATE users SET pwdUsers=? WHERE emailUsers=?";
-                            
-                            
-                        }
-                    }
-                    
-                }
-            }
-        }
-    
-} else {
-    header("Location: ../index.php"); 
-}
+if(isset($_POST['submit'])){
+	$name=$_POST['name'];
+	$email=$_POST['email'];
+
+	//Call function to see if email exists
+	$userFound = findUserByEmail($_POST['email']);
+	if ($userFound){
+		//Call to Generate password functionality
+		$updated = updateUserByEmail(generateRandomString());
+		if ($updated){
+
+			//Send mail
+			$to=$_POST['email'];
+			$subject='New Password';
+			$body='<html>
+			 <body>
+			 <h3>Feedback</h3>
+			 <hr>
+						
+			/*  <p> Username : '.$name.'</p>
+			 <br> */
+						
+			 <p> Email : '.$email.'</p>
+						
+			 </body>
+						
+			 </html>';
+			
+			$headers  ="From:".$name."<".$email.">\r\n";
+			$headers .="reply-To:".$email."\r\n";
+			$headers .="NINE-Version: 1.0\r\n";
+			$headers .="Content-type: text/html; charset=utf-8";
+			
+			
+			//confirmation mail
+			$user=$email;
+			$usersubject = "New Password";
+			$userheaders = "From: mibtonlinepwdreset@gmail.com\n";
+			$usermessage = "Thank You";
+			
+			
+			//sending process
+			$send=mail($to, $subject, $body, $headers);
+			$confirm=mail($user, $usersubject, $userheaders,$usermessage );
+			
+			if($send && $confirm){
+				echo "success";
+			}
+			
+			else{
+				echo "Failed";
+			}
+			
+			}
+				
+		}else{
+			
+		}
+	}
+	
 ?>

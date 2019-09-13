@@ -19,9 +19,11 @@ if (isset($_POST['submit'])) {
     // // To protect MySQL injection for Security purpose
     $username = stripslashes($username);
     $password = stripslashes($password);
-    establishUserSession($username, $password);    
-    header ( "Location: login-success2test.php" );
-    die ();
+    $loggedIn = establishUserSession($username, $password);    
+    if ($loggedIn){
+	    header ( "Location: login-success2test.php" );
+	    die ();
+    }
 }
 }
 ?>

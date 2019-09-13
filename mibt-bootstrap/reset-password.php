@@ -3,6 +3,7 @@ set_include_path('./php-includes' . PATH_SEPARATOR . './php-functions');
 
 // Function
 require_once 'access.fn.php';
+require_once 'reset-password.fn.php';
 // require_once 'filter.fn.php';
 // require_once 'product.fn.php';
 // require_once 'admin.fn.php';
@@ -10,6 +11,8 @@ require_once 'access.fn.php';
 // Includes
 require_once 'connect.inc.php';
 require_once 'signup.inc.php';
+require_once 'reset-password.inc.php';
+
 // require_once 'head.inc.php';
 ?>
 <!DOCTYPE html>
@@ -30,30 +33,25 @@ require_once 'signup.inc.php';
 
 
 
-	<!-- Page Content -->
-	<div class="container">
-		<div id="login">
-			<h2>Reset your Password</h2>
-			<p>An email will be sent to you with instructions to reset your
-				password.</p>
-		</div>
-		<form action="php-includes/reset-request.inc.php" method="post">
-			<label>UserName :</label> <input type="text" name="email"
-				placeholder="Enter Your Email Address...">
-			<button type="submit" name="reset-request-submit">Receive new
-				password by email</button>
-		</form>
-		<?php
-		if (isset($_GET["reset"])) {
-		    if ($_GET["reset"] == "success") {
-		        echo '<p class="signupsuccess">Check your e-mail!</p>';
-		    }
-		}
-		?>
-	</div>
-	</div>
+	<?php
 
-	</div>
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Contact Form</title>
+</head>
+<body>
+<form action="" method="POST">
+
+<!-- <input type="text" name="name" placeholder="Name"> -->
+<input type="email" name="email" placeholder="email">
+<input type="submit" name="submit" value="send">
+</form>
+
+</body>
+</html>
 	<!-- /.container -->
 
 	<!-- Footer -->

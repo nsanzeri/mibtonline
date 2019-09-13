@@ -2,7 +2,7 @@
 // functions.php
 function establishUserSession($username, $password){
 	global $db, $error;
-
+	$loggedIn = false;
 	$sql = "select * from user where password='$password' AND username='$username'";
 	$result = $db -> query($sql);
 	$numrows = $result -> num_rows;
@@ -14,10 +14,12 @@ function establishUserSession($username, $password){
 		$row = $result -> fetch_object();
 		$_SESSION['login_user']=$row->username; // Initializing Session
 		$_SESSION['is_paid']=$row->is_paid; // Initializing Session
-		header("location: index.php"); // Redirecting To Other Page
+		$loggedIn = true;
+//		header("location: index.php"); // Redirecting To Other Page
 	} else {
 		$error = "Username or Password is invalid";
 	}
+	return $loggedIn;
 }
 
 function isGracePeriod(){
@@ -47,3 +49,4 @@ function isGracePeriod(){
 // 	echo('$grace_period: '.$grace_period);
 	return $grace_period;
 }
+?>

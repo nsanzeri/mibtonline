@@ -40,7 +40,7 @@ require_once 'login.inc.php';
 					type="password"> <input name="submit" type="submit" value=" Login ">
 				<span><?php echo $error; ?></span>
 			</form>
-			<!-- <a class="nav-link" href='reset-password.php'><i>Reset Password</i></a>  -->
+			<a class="nav-link" href='reset-password.php'><i>Reset Password</i></a>
 			Not a member? <a class="nav-link" href='signup.php'>Sign up here</a>
 		</div>
 
