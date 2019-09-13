@@ -1,6 +1,6 @@
 <?php
-function generateRandomString($length = 10) {
-
+function generateRandomString() {
+	$length = 10;
 	return substr(str_shuffle(str_repeat($x='0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length/strlen($x)) )),1,$length);
 	//echo  generateRandomString();  // OR: generateRandomString(24)
 }
@@ -25,21 +25,15 @@ function findUserByEmail($email){
 	return $found;
 }
 
-function updateUserByEmail($randomPassword){
+function updateUserByEmail($randomPassword, $email){
 	global $db, $error;
-	$update = false;
+	$updated = false;
 	$sql = "update user set password = '$randomPassword' where email='$email'";
-	$result = $db -> query($sql);
-	$numrows = $result -> num_rows;
-
-	// echo('numrows: '.$numrows);
-	// echo('sql: '.$numrows);
-	if ($numrows == 1) {
-		// while ($row = $result -> fetch_object()) {
-		$row = $result -> fetch_object();
+	if ($db->query($sql) === TRUE) {
+		echo "Record updated successfully";
 		$updated = true;
 	} else {
-		$error = "No User found with that email address";
+		echo "Error updating record: " . $db->error;
 	}
 	return $updated;
 }

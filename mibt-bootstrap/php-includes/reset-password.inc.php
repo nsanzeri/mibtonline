@@ -1,13 +1,13 @@
 <?php
 if(isset($_POST['submit'])){
-	$name=$_POST['name'];
+
 	$email=$_POST['email'];
 
 	//Call function to see if email exists
 	$userFound = findUserByEmail($_POST['email']);
 	if ($userFound){
 		//Call to Generate password functionality
-		$updated = updateUserByEmail(generateRandomString());
+		$updated = updateUserByEmail(generateRandomString(), $_POST['email']);
 		if ($updated){
 
 			//Send mail
@@ -18,8 +18,6 @@ if(isset($_POST['submit'])){
 			 <h3>Feedback</h3>
 			 <hr>
 						
-			/*  <p> Username : '.$name.'</p>
-			 <br> */
 						
 			 <p> Email : '.$email.'</p>
 						
@@ -27,7 +25,7 @@ if(isset($_POST['submit'])){
 						
 			 </html>';
 			
-			$headers  ="From:".$name."<".$email.">\r\n";
+			$headers  ="From:"."Someone"."<".$email.">\r\n";
 			$headers .="reply-To:".$email."\r\n";
 			$headers .="NINE-Version: 1.0\r\n";
 			$headers .="Content-type: text/html; charset=utf-8";
